@@ -1,0 +1,304 @@
+{
+  "type": "runtime",
+  "subtype": "javascript",
+  "name": "node.js",
+  "description": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
+  "homepage": "https://nodejs.org/",
+  "references": {
+    "active_lts": "https://nodejs.org/en/about/releases/",
+    "maintenance_lts": "https://nodejs.org/en/about/releases/",
+    "lifecycle": "https://github.com/nodejs/Release/blob/main/schedule.json"
+  },
+  "commands": {
+    "version": "node --version | tr -d 'v'"
+  },
+  "lifecycle_aliases": {
+    "active_development": "Current",
+    "active_lts": "Active LTS",
+    "maintenance_lts": "Maintenance"
+  },
+  "versions": [{
+    "semver": "^20",
+    "lifecycle": {
+      "active_development": {
+        "date": "2023-04-18"
+      },
+      "active_lts": {
+        "date": "2023-10-24"
+      },
+      "maintenance_lts": {
+        "date": "2024-10-22"
+      },
+      "end_of_life": {
+        "date": "2026-04-30"
+      }
+    }
+  }, {
+    "semver": "^19",
+    "lifecycle": {
+      "active_development": {
+        "date": "2022-10-18"
+      },
+      "maintenance_lts": {
+        "date": "2023-04-01"
+      },
+      "end_of_life": {
+        "date": "2023-06-01"
+      }
+    }
+  }, {
+    "codename": "Hydrogen",
+    "semver": "^18",
+    "lifecycle": {
+      "active_development": {
+        "date": "2022-04-19"
+      },
+      "active_lts": {
+        "date": "2022-10-25"
+      },
+      "maintenance_lts": {
+        "date": "2023-10-18"
+      },
+      "end_of_life": {
+        "date": "2025-04-30"
+      }
+    }
+  }, {
+    "semver": "^17",
+    "lifecycle": {
+      "active_development": {
+        "date": "2021-10-19"
+      },
+      "maintenance_lts": {
+        "date": "2022-04-01"
+      },
+      "end_of_life": {
+        "date": "2022-06-01"
+      }
+    }
+  }, {
+    "codename": "Gallium",
+    "semver": "^16",
+    "lifecycle": {
+      "active_development": {
+        "date": "2021-04-20"
+      },
+      "active_lts": {
+        "date": "2020-10-26"
+      },
+      "maintenance_lts": {
+        "date": "2022-10-18"
+      }
+    }
+  }, {
+    "semver": "^15",
+    "lifecycle": {
+      "active_development": {
+        "date": "2020-10-20"
+      },
+      "maintenance_lts": {
+        "date": "2021-04-01"
+      },
+      "end_of_life": {
+        "date": "2021-06-01"
+      }
+    }
+  }, {
+    "codename": "Fermium",
+    "semver": "^14",
+    "lifecycle": {
+      "active_development": {
+        "date": "2020-04-21"
+      },
+      "active_lts": {
+        "date": "2020-10-27"
+      },
+      "maintenance_lts": {
+        "date": "2021-10-19"
+      },
+      "end_of_life": {
+        "date": "2023-04-30"
+      }
+    }
+  }, {
+    "semver": "^13",
+    "lifecycle": {
+      "active_development": {
+        "date": "2019-10-22"
+      },
+      "maintenance_lts": {
+        "date": "2020-04-01"
+      },
+      "end_of_life": {
+        "date": "2020-06-01"
+      }
+    }
+  }, {
+    "codename": "Erbium",
+    "semver": "^12",
+    "lifecycle": {
+      "active_development": {
+        "date": "2019-04-23"
+      },
+      "active_lts": {
+        "date": "2019-10-21"
+      },
+      "maintenance_lts": {
+        "date": "2020-11-30"
+      },
+      "end_of_life": {
+        "date": "2022-04-30"
+      }
+    }
+  }, {
+    "semver": "^11",
+    "lifecycle": {
+      "active_development": {
+        "date": "2018-10-23"
+      },
+      "maintenance_lts": {
+        "date": "2019-04-22"
+      },
+      "end_of_life": {
+        "date": "2019-06-01"
+      }
+    }
+  }, {
+    "codename": "Dubnium",
+    "semver": "^10",
+    "lifecycle": {
+      "active_development": {
+        "date": "2018-04-24"
+      },
+      "active_lts": {
+        "date": "2018-10-30"
+      },
+      "maintenance_lts": {
+        "date": "2020-05-19"
+      },
+      "end_of_life": {
+        "date": "2021-04-30"
+      }
+    }
+  }, {
+    "semver": "^9",
+    "lifecycle": {
+      "active_development": {
+        "date": "2017-10-01"
+      },
+      "maintenance_lts": {
+        "date": "2018-04-01"
+      },
+      "end_of_life": {
+        "date": "2018-06-30"
+      }
+    }
+  }, {
+    "codename": "Carbon",
+    "semver": "^8",
+    "lifecycle": {
+      "active_development": {
+        "date": "2017-05-30"
+      },
+      "active_lts": {
+        "date": "2017-10-31"
+      },
+      "maintenance_lts": {
+        "date": "2019-01-01"
+      },
+      "end_of_life": {
+        "date": "2019-12-31"
+      }
+    }
+  }, {
+    "semver": "^7",
+    "lifecycle": {
+      "active_development": {
+        "date": "2016-10-25"
+      },
+      "maintenance_lts": {
+        "date": "2017-04-30"
+      },
+      "end_of_life": {
+        "date": "2017-06-30"
+      }
+    }
+  }, {
+    "codename": "Boron",
+    "semver": "^6",
+    "lifecycle": {
+      "active_development": {
+        "date": "2016-04-26"
+      },
+      "active_lts": {
+        "date": "2016-10-18"
+      },
+      "maintenance_lts": {
+        "date": "2018-04-30"
+      },
+      "end_of_life": {
+        "date": "2019-04-30"
+      }
+    }
+  }, {
+    "semver": "^5",
+    "lifecycle": {
+      "active_development": {
+        "date": "2015-10-29"
+      },
+      "maintenance_lts": {
+        "date": "2016-04-30"
+      },
+      "end_of_life": {
+        "date": "2016-06-30"
+      }
+    }
+  }, {
+    "codename": "Argon",
+    "semver": "^4",
+    "lifecycle": {
+      "active_development": {
+        "date": "2015-09-08"
+      },
+      "active_lts": {
+        "date": "2015-10-12"
+      },
+      "maintenance_lts": {
+        "date": "2017-04-01"
+      },
+      "end_of_life": {
+        "date": "2018-04-30"
+      }
+    }
+  }, {
+    "semver": "^0.12",
+    "lifecycle": {
+      "active_development": {
+        "date": "2015-02-06"
+      },
+      "end_of_life": {
+        "date": "2016-12-31"
+      }
+    }
+  }, {
+    "semver": "^0.10",
+    "lifecycle": {
+      "active_development": {
+        "date": "2013-03-11"
+      },
+      "end_of_life": {
+        "date": "2016-10-31"
+      }
+    }
+  }, {
+    "semver": "^0.8",
+    "lifecycle": {
+      "active_development": {
+        "date": "2012-06-25"
+      },
+      "end_of_life": {
+        "date": "2014-07-31"
+      }
+    }
+  }]
+}

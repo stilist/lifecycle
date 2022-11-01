@@ -1,0 +1,80 @@
+{
+  "type": "framework",
+  "subtype": "ruby",
+  "name": "Ruby on Rails",
+  "description": "Rails is a full-stack framework. It ships with all the tools needed to build amazing web apps on both the front and back end.",
+  "homepage": "https://rubyonrails.org",
+  "references": {
+    "lifecycle": "https://guides.rubyonrails.org/maintenance_policy.html"
+  },
+  "commands": {
+    "version": "gem info --exact --local rails | head -1 | egrep --only-matching '[[:digit:]]+(\\.[[:digit:]]+){2}'"
+  },
+  "versions": [{
+    "semver": "^7.0.0",
+    "references": [
+      "https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2021-12-15"
+      }
+    }
+  }, {
+    "semver": "^6.1.0",
+    "references": [
+      "https://rubyonrails.org/2020/12/9/Rails-6-1-0-release"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2020-12-09"
+      }
+    }
+  }, {
+    "semver": "^6.0.0",
+    "references": [
+      "https://rubyonrails.org/2019/8/15/Rails-6-0-final-release"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2019-08-18"
+      },
+      "end_of_life": {
+        "date": "2023-06-01"
+      }
+    }
+  }, {
+    "semver": "^5.2.0",
+    "references": [
+      "https://rubyonrails.org/2018/4/15/this-week-in-rails-rails-5-2-0-performance-optimizations-space-saving-compression-and-more"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2018-04-09"
+      },
+      "end_of_life": {
+        "date": "2022-05-31"
+      }
+    }
+  }, {
+    "semver": "^5.1.0",
+    "references": [
+      "https://rubyonrails.org/2017/4/27/Rails-5-1-final"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2017-04-27"
+      }
+    }
+  }, {
+    "semver": "^5.0.0",
+    "references": [
+      "https://rubyonrails.org/2016/6/30/Rails-5-0-final"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2016-06-30"
+      }
+    }
+  }]
+}

@@ -1,0 +1,201 @@
+{
+  "type": "os",
+  "subtype": "distribution",
+  "name": "Debian",
+  "desciption": "Debian is a complete Free Operating System!",
+  "homepage": "https://www.debian.org/",
+  "references": {
+    "active_lts": "https://wiki.debian.org/LTS",
+    "community_lts": "https://wiki.debian.org/LTS/Extended"
+  },
+  "commands": {
+    "codename": "cat /etc/*-release | grep VERSION_CODENAME | cut -d '=' -f 2 | tr -d '\"'",
+    "version": "cat /etc/*-release | grep VERSION_ID | cut -d '=' -f 2 | tr -d '\"'"
+  },
+  "lifecycle_aliases": {
+    "active_development": "stable",
+    "active_lts": "oldstable",
+    "maintenance_lts": "oldoldstable",
+    "community_lts": "Extended Long Term Support"
+  },
+  "versions": [{
+    "codename": "bullseye",
+    "references": [
+      "https://wiki.debian.org/DebianBullseye"
+    ],
+    "semver": "^11",
+    "lifecycle": {
+      "active_development": {
+        "date": "2021-08-14",
+        "architectures": [
+          "amd64",
+          "arm64",
+          "armel",
+          "armhf",
+          "i386",
+          "mips64el",
+          "mipsel",
+          "ppc64el",
+          "s390x"
+        ]
+      },
+      "active_lts": {
+        "date": "2024-07",
+        "architectures": [
+          "amd64",
+          "armel",
+          "armhf",
+          "i386"
+        ]
+      },
+      "end_of_life": {
+        "date": "2026-06"
+      }
+    }
+  }, {
+    "codename": "buster",
+    "references": [
+      "https://wiki.debian.org/DebianBuster"
+    ],
+    "semver": "^10",
+    "lifecycle": {
+      "active_development": {
+        "date": "2019-07-06",
+        "architectures": [
+          "amd64",
+          "arm64",
+          "armel",
+          "armhf",
+          "i386",
+          "mips",
+          "mips64el",
+          "mipsel",
+          "ppc64el",
+          "s390x"
+        ]
+      },
+      "active_lts": {
+        "date": "2022-07",
+        "architectures": [
+          "amd64",
+          "armel",
+          "armhf",
+          "i386"
+        ]
+      },
+      "end_of_life": {
+        "date": "2024-06"
+      }
+    }
+  }, {
+    "codename": "wheezy",
+    "semver": "^7",
+    "lifecycle": {
+      "active_development": {
+        "date": "2013-05-04",
+        "architectures": [
+          "amd64",
+          "armel",
+          "armhf",
+          "i386",
+          "ia64",
+          "mips",
+          "mipsel",
+          "powerpc",
+          "s390",
+          "s390x",
+          "sparc"
+        ]
+      },
+      "active_lts": {
+        "date": "2016-04-26",
+        "architectures": [
+          "amd64",
+          "armel",
+          "armhf",
+          "i386"
+        ]
+      },
+      "community_lts": {
+        "date": "2018-06-01",
+        "architectures": [
+          "amd64",
+          "i386"
+        ]
+      },
+      "end_of_life": {
+        "date": "2020-06-30"
+      }
+    }
+  }, {
+    "codename": "stretch",
+    "references": [
+      "https://wiki.debian.org/DebianStretch"
+    ],
+    "semver": "^9",
+    "lifecycle": {
+      "active_development": {
+        "date": "2017-06-17",
+        "architectures": [
+          "amd64",
+          "arm64",
+          "armel",
+          "armhf",
+          "i386",
+          "mips",
+          "mips64el",
+          "mipsel",
+          "ppc64el",
+          "s390x"
+        ]
+      },
+      "active_lts": {
+        "date": "2020-07-06",
+        "architectures": [
+          "amd64",
+          "armel",
+          "armhf",
+          "i386"
+        ]
+      },
+      "community_lts": {
+        "date": "2022",
+        "architectures": [
+          "amd64",
+          "i386"
+        ]
+      }
+    }
+  }, {
+    "codename": "jessie",
+    "references": [
+      "https://wiki.debian.org/DebianJessie"
+    ],
+    "semver": "^8",
+    "lifecycle": {
+      "active_development": {
+        "date": "2015-04-25"
+      },
+      "active_lts": {
+        "date": "2018-06-17",
+        "architectures": [
+          "amd64",
+          "armel",
+          "armhf",
+          "i386"
+        ]
+      },
+      "community_lts": {
+        "date": "2020-07-01",
+        "architectures": [
+          "amd64",
+          "armel",
+          "i386"
+        ]
+      },
+      "end_of_life": {
+        "date": "2020-06-30"
+      }
+    }
+  }]
+}

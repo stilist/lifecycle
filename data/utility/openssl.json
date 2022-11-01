@@ -1,0 +1,155 @@
+{
+  "type": "utility",
+  "name": "OpenSSL",
+  "description": "Cryptography and SSL/TLS Toolkit",
+  "homepage": "https://www.openssl.org/",
+  "references": {
+    "commercial_lts": "https://www.openssl.org/support/contracts.html",
+    "lifecycle": "https://www.openssl.org/policies/releasestrat.html"
+  },
+  "commands": {
+    "version": "openssl version | cut -d ' ' -f 2"
+  },
+  "versions": [
+    {
+      "semver": "^3.0.0",
+      "lifecycle": {
+        "active_development": {
+          "date": "2021-09-07"
+        },
+        "end_of_life": {
+          "date": "2026-09-07"
+        }
+      }
+    }, {
+      "semver": "1.1.1",
+      "lifecycle": {
+        "active_development": {
+          "date": "2018-09-11"
+        },
+        "end_of_life": {
+          "date": "2023-09-11"
+        }
+      }
+    }, {
+      "semver": "1.1.0",
+      "lifecycle": {
+        "active_development": {
+          "date": "2016-08-25"
+        },
+        "end_of_life": {
+          "date": "2018-04-30"
+        }
+      }
+    }, {
+      "semver": "1.0.2",
+      "lifecycle": {
+        "active_development": {
+          "date": "2015-01-22"
+        },
+        "end_of_life": {
+          "date": "2019-12-31"
+        }
+      }
+    }, {
+      "semver": "1.0.1",
+      "lifecycle": {
+        "active_development": {
+          "date": "2012-03-14"
+        },
+        "end_of_life": {
+          "date": "2016-12-31"
+        }
+      }
+    }, {
+      "semver": "1.0.0",
+      "lifecycle": {
+        "active_development": {
+          "date": "2010-03-29"
+        },
+        "end_of_life": {
+          "date": "2015-12-31"
+        }
+      }
+    }, {
+      "semver": "0.9.8",
+      "lifecycle": {
+        "active_development": {
+          "date": "2005-07-05"
+        },
+        "end_of_life": {
+          "date": "2015-12-31"
+        }
+      }
+    }, {
+      "semver": "0.9.8",
+      "lifecycle": {
+        "active_development": {
+          "date": "2005-07-05"
+        },
+        "end_of_life": {
+          "date": "2015-12-31"
+        }
+      }
+    }, {
+      "semver": "0.9.8",
+      "lifecycle": {
+        "active_development": {
+          "date": "2005-07-05"
+        },
+        "end_of_life": {
+          "date": "2015-12-31"
+        }
+      }
+    }, {
+      "semver": "0.9.7",
+      "lifecycle": {
+        "active_development": {
+          "date": "2002-12-13"
+        }
+      }
+    }, {
+      "semver": "0.9.6",
+      "lifecycle": {
+        "active_development": {
+          "date": "2000-09-24"
+        }
+      }
+    }, {
+      "semver": "0.9.5",
+      "lifecycle": {
+        "active_development": {
+          "date": "2000-02-28"
+        }
+      }
+    }, {
+      "semver": "0.9.4",
+      "lifecycle": {
+        "active_development": {
+          "date": "1999-08-09"
+        }
+      }
+    }, {
+      "semver": "0.9.3",
+      "lifecycle": {
+        "active_development": {
+          "date": "1999-05-25"
+        }
+      }
+    }, {
+      "semver": "0.9.2",
+      "lifecycle": {
+        "active_development": {
+          "date": "1999-03-22"
+        }
+      }
+    }, {
+      "semver": "0.9.1",
+      "lifecycle": {
+        "active_development": {
+          "date": "1998-12-23"
+        }
+      }
+    }
+  ]
+}

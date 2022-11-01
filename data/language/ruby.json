@@ -1,0 +1,137 @@
+{
+  "type": "language",
+  "name": "Ruby",
+  "description": "A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.",
+  "homepage": "https://www.ruby-lang.org",
+  "references": {
+    "lifecycle": "https://www.ruby-lang.org/en/downloads/branches/"
+  },
+  "commands": {
+    "version": "ruby --version | egrep --only-matching '[[:digit:]]+\\.[[:digit:]]+\\.[[:digit:]]'"
+  },
+  "lifecycle_aliases": {
+    "active_development": "normal maintenance",
+    "security": "security maintenance",
+    "end_of_life": "eol"
+  },
+  "versions": [{
+    "semver": "^3.1",
+    "lifecycle": {
+      "active_development": {
+        "date": "2021-12-25"
+      }
+    }
+  }, {
+    "semver": "^3.0",
+    "lifecycle": {
+      "active_development": {
+        "date": "2020-12-25"
+      }
+    }
+  }, {
+    "semver": "^2.7",
+    "lifecycle": {
+      "active_development": {
+        "date": "2019-12-25"
+      },
+      "security": {
+        "date": "2022-04-12"
+      }
+    }
+  }, {
+    "semver": "^2.6",
+    "lifecycle": {
+      "active_development": {
+        "date": "2018-12-25"
+      },
+      "security": {
+        "date": "2021-03-31"
+      },
+      "end_of_life": {
+        "date": "2022-04-12"
+      }
+    }
+  }, {
+    "semver": "^2.5",
+    "lifecycle": {
+      "active_development": {
+        "date": "2017-12-25"
+      },
+      "security": {
+        "date": "2020-03-31"
+      },
+      "end_of_life": {
+        "date": "2021-03-31"
+      }
+    }
+  }, {
+    "semver": "^2.4",
+    "lifecycle": {
+      "active_development": {
+        "date": "2016-12-25"
+      },
+      "security": {
+        "date": "2019-03-31"
+      },
+      "end_of_life": {
+        "date": "2020-03-31"
+      }
+    }
+  }, {
+    "semver": "^2.3",
+    "lifecycle": {
+      "active_development": {
+        "date": "2015-12-25"
+      },
+      "security": {
+        "date": "2018-03-31"
+      },
+      "end_of_life": {
+        "date": "2019-03-31"
+      }
+    }
+  }, {
+    "semver": "^2.2",
+    "lifecycle": {
+      "active_development": {
+        "date": "2014-12-25"
+      },
+      "security": {
+        "date": "2017-03-31"
+      },
+      "end_of_life": {
+        "date": "2018-03-31"
+      }
+    }
+  }, {
+    "semver": "^2.1",
+    "lifecycle": {
+      "active_development": {
+        "date": "2013-12-25"
+      },
+      "end_of_life": {
+        "date": "2017-03-31"
+      }
+    }
+  }, {
+    "semver": "^2.0",
+    "lifecycle": {
+      "active_development": {
+        "date": "2013-02-24"
+      },
+      "end_of_life": {
+        "date": "2016-02-24"
+      }
+    }
+  }, {
+    "semver": "1.9.3",
+    "lifecycle": {
+      "active_development": {
+        "date": "2011-10-31"
+      },
+      "end_of_life": {
+        "date": "2015-02-23"
+      }
+    }
+  }]
+}
