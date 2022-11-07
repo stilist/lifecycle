@@ -1,5 +1,5 @@
 {
-  "type": "framework",
+  "type": "library",
   "subtype": "ruby",
   "name": "Ruby on Rails",
   "description": "Rails is a full-stack framework. It ships with all the tools needed to build amazing web apps on both the front and back end.",
