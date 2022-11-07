@@ -1,0 +1,307 @@
+{
+  "type": "utility",
+  "subtype": "database",
+  "name": "PostgreSQL",
+  "description": "The World’s Most Advanced Open Source Relational Database",
+  "homepage": "https://www.postgresql.org/",
+  "references": {
+    "active_lts": "https://www.postgresql.org/support/versioning/",
+    "lifecycle": "https://www.postgresql.org/support/versioning/"
+  },
+  "commands": {
+    "version": "psql --version | grep -E --only-matching '[[:digit:]]+\\.[[:digit:]]+(\\.[[:digit:]])?'"
+  },
+  "lifecycle_aliases": {
+    "active_development": "Current",
+    "active_lts": "Active LTS",
+    "maintenance_lts": "Maintenance"
+  },
+  "versions": [
+    {
+      "semver": "~15",
+      "lifecycle": {
+        "active_development": {
+          "date": "2022-10-13"
+        },
+        "end_of_life": {
+          "date": "2027-11-11"
+        }
+      }
+    },
+    {
+      "semver": "~14",
+      "lifecycle": {
+        "active_development": {
+          "date": "2021-09-30"
+        },
+        "end_of_life": {
+          "date": "2026-11-12"
+        }
+      }
+    },
+    {
+      "semver": "~13",
+      "lifecycle": {
+        "active_development": {
+          "date": "2020-09-24"
+        },
+        "end_of_life": {
+          "date": "2025-11-13"
+        }
+      }
+    },
+    {
+      "semver": "~12",
+      "lifecycle": {
+        "active_development": {
+          "date": "2019-10-03"
+        },
+        "end_of_life": {
+          "date": "2024-11-14"
+        }
+      }
+    },
+    {
+      "semver": "~11",
+      "lifecycle": {
+        "active_development": {
+          "date": "2018-10-18"
+        },
+        "end_of_life": {
+          "date": "2023-11-09"
+        }
+      }
+    },
+    {
+      "semver": "~10",
+      "lifecycle": {
+        "active_development": {
+          "date": "2017-10-05"
+        },
+        "end_of_life": {
+          "date": "2022-11-10"
+        }
+      }
+    },
+    {
+      "semver": "~9.6",
+      "lifecycle": {
+        "active_development": {
+          "date": "2016-09-29"
+        },
+        "end_of_life": {
+          "date": "2021-11-11"
+        }
+      }
+    },
+    {
+      "semver": "~9.5",
+      "lifecycle": {
+        "active_development": {
+          "date": "2016-01-07"
+        },
+        "end_of_life": {
+          "date": "2021-02-11"
+        }
+      }
+    },
+    {
+      "semver": "~9.4",
+      "lifecycle": {
+        "active_development": {
+          "date": "2014-12-18"
+        },
+        "end_of_life": {
+          "date": "2020-02-13"
+        }
+      }
+    },
+    {
+      "semver": "~9.3",
+      "lifecycle": {
+        "active_development": {
+          "date": "2013-09-09"
+        },
+        "end_of_life": {
+          "date": "2018-11-08"
+        }
+      }
+    },
+    {
+      "semver": "~9.2",
+      "lifecycle": {
+        "active_development": {
+          "date": "2012-09-10"
+        },
+        "end_of_life": {
+          "date": "2017-11-09"
+        }
+      }
+    },
+    {
+      "semver": "~9.1",
+      "lifecycle": {
+        "active_development": {
+          "date": "2011-09-12"
+        },
+        "end_of_life": {
+          "date": "2016-10-27"
+        }
+      }
+    },
+    {
+      "semver": "~9.0",
+      "lifecycle": {
+        "active_development": {
+          "date": "2010-09-20"
+        },
+        "end_of_life": {
+          "date": "2015-10-08"
+        }
+      }
+    },
+    {
+      "semver": "~8.4",
+      "lifecycle": {
+        "active_development": {
+          "date": "2009-07-01"
+        },
+        "end_of_life": {
+          "date": "2014-07-24"
+        }
+      }
+    },
+    {
+      "semver": "~8.3",
+      "lifecycle": {
+        "active_development": {
+          "date": "2008-02-04"
+        },
+        "end_of_life": {
+          "date": "2013-02-07"
+        }
+      }
+    },
+    {
+      "semver": "~8.2",
+      "lifecycle": {
+        "active_development": {
+          "date": "2006-12-05"
+        },
+        "end_of_life": {
+          "date": "2011-12-05"
+        }
+      }
+    },
+    {
+      "semver": "~8.1",
+      "lifecycle": {
+        "active_development": {
+          "date": "2005-11-08"
+        },
+        "end_of_life": {
+          "date": "2010-11-08"
+        }
+      }
+    },
+    {
+      "semver": "~8.0",
+      "lifecycle": {
+        "active_development": {
+          "date": "2005-01-19"
+        },
+        "end_of_life": {
+          "date": "2010-10-01"
+        }
+      }
+    },
+    {
+      "semver": "~7.4",
+      "lifecycle": {
+        "active_development": {
+          "date": "2003-11-17"
+        },
+        "end_of_life": {
+          "date": "2010-10-01"
+        }
+      }
+    },
+    {
+      "semver": "~7.3",
+      "lifecycle": {
+        "active_development": {
+          "date": "2002-11-27"
+        },
+        "end_of_life": {
+          "date": "2007-11-27"
+        }
+      }
+    },
+    {
+      "semver": "~7.2",
+      "lifecycle": {
+        "active_development": {
+          "date": "2002-02-04"
+        },
+        "end_of_life": {
+          "date": "2007-02-04"
+        }
+      }
+    },
+    {
+      "semver": "~7.1",
+      "lifecycle": {
+        "active_development": {
+          "date": "2001-04-13"
+        },
+        "end_of_life": {
+          "date": "2006-04-13"
+        }
+      }
+    },
+    {
+      "semver": "~7.0",
+      "lifecycle": {
+        "active_development": {
+          "date": "2000-05-08"
+        },
+        "end_of_life": {
+          "date": "2005-05-08"
+        }
+      }
+    },
+    {
+      "semver": "~6.5",
+      "lifecycle": {
+        "active_development": {
+          "date": "1999-06-09"
+        },
+        "end_of_life": {
+          "date": "2004-06-09"
+        }
+      }
+    },
+    {
+      "semver": "~6.4",
+      "lifecycle": {
+        "active_development": {
+          "date": "1998-10-30"
+        },
+        "end_of_life": {
+          "date": "2003-10-30"
+        }
+      }
+    },
+    {
+      "semver": "~6.3",
+      "lifecycle": {
+        "active_development": {
+          "date": "1998-03-01"
+        },
+        "end_of_life": {
+          "date": "2003-03-01"
+        }
+      }
+    }
+  ]
+}
