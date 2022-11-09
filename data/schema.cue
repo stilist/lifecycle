@@ -29,6 +29,10 @@ lifecycle_aliases?: #lifecycle_aliases
 	codename?: string
 	references?: [...string]
 	lifecycle: [#stages]: {
+		// @note For `active_development`, `date` is the date the version was
+		//   given `semver` series was first released. For all other lifecycle
+		//   stages `date` is the date the given `semver` series transitioned to
+		//   the given stage.
 		date: time.Format("2006") | time.Format("2006-01") | time.Format("2006-01-02")
 		architectures?: [...string]
 		releases?: [...#version_number]
