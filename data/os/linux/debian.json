@@ -9,8 +9,18 @@
     "community_lts": "https://wiki.debian.org/LTS/Extended"
   },
   "commands": {
-    "codename": "cat /etc/*-release | grep VERSION_CODENAME | cut -d '=' -f 2 | tr -d '\"'",
-    "version": "cat /etc/*-release | grep VERSION_ID | cut -d '=' -f 2 | tr -d '\"'"
+    "codename": [
+      "cat /etc/*-release",
+      "| grep VERSION_CODENAME",
+      "| cut -d '=' -f 2",
+      "| tr -d '\"'"
+    ],
+    "version": [
+      "cat /etc/*-release",
+      "| grep VERSION_ID",
+      "| cut -d '=' -f 2",
+      "| tr -d '\"'"
+    ]
   },
   "lifecycle_aliases": {
     "active_development": "stable",

@@ -13,7 +13,7 @@ homepage?:    string
 references: #references
 
 #command_keys: "codename" | "version"
-#commands: [#command_keys]: string
+#commands: [#command_keys]: [...string]
 commands?: #commands
 
 #lifecycle_aliases: [#stages]: string

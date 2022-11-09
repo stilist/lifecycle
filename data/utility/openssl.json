@@ -8,11 +8,14 @@
     "lifecycle": "https://www.openssl.org/policies/releasestrat.html"
   },
   "commands": {
-    "version": "openssl version | cut -d ' ' -f 2"
+    "version": [
+      "openssl version",
+      "| cut -d ' ' -f 2"
+    ]
   },
   "versions": [
     {
-      "semver": "^3.0.0",
+      "semver": "~3.0.0",
       "lifecycle": {
         "active_development": {
           "date": "2021-09-07"

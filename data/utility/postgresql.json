@@ -9,7 +9,11 @@
     "lifecycle": "https://www.postgresql.org/support/versioning/"
   },
   "commands": {
-    "version": "psql --version | grep -E --only-matching '[[:digit:]]+\\.[[:digit:]]+(\\.[[:digit:]])?'"
+    "version": [
+      "psql --version",
+      "| grep -E --only-matching",
+      "  '[[:digit:]]+\\.[[:digit:]]+(\\.[[:digit:]])?'"
+    ]
   },
   "lifecycle_aliases": {
     "active_development": "Current",

@@ -10,7 +10,10 @@
     "lifecycle": "https://github.com/nodejs/Release/blob/main/schedule.json"
   },
   "commands": {
-    "version": "node --version | tr -d 'v'"
+    "version": [
+      "node --version",
+      "| tr -d 'v'"
+    ]
   },
   "lifecycle_aliases": {
     "active_development": "Current",

@@ -7,7 +7,11 @@
     "lifecycle": "https://www.ruby-lang.org/en/downloads/branches/"
   },
   "commands": {
-    "version": "ruby --version | egrep --only-matching '[[:digit:]]+\\.[[:digit:]]+\\.[[:digit:]]'"
+    "version": [
+      "ruby --version",
+      "| egrep --only-matching",
+      "  '[[:digit:]]+\\.[[:digit:]]+\\.[[:digit:]]'"
+    ]
   },
   "lifecycle_aliases": {
     "active_development": "normal maintenance",
