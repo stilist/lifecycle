@@ -1,0 +1,215 @@
+{
+  "type": "language",
+  "name": "Python",
+  "description": "Python is a programming language that lets you work more quickly and integrate your systems more effectively.",
+  "homepage": "https://www.python.org",
+  "references": {
+    "lifecycle": "https://devguide.python.org/versions/#versions"
+  },
+  "commands": {
+    "version": [
+      "((which python > /dev/null) && python --version)",
+      "|| ((which python3 > /dev/null && python3 --version)",
+      "| grep -E --only-matching",
+      "  '[[:digit:]]+\\.[[:digit:]]+(\\.[[:digit:]])?'"
+    ]
+  },
+  "versions": [
+    {
+      "semver": "~3.11",
+      "references": [
+        "https://peps.python.org/pep-0664/"
+      ],
+      "lifecycle": {
+        "active_development": {
+          "date": "2022-10-24"
+        },
+        "end_of_life": {
+          "date": "2027-10"
+        }
+      }
+    },
+    {
+      "semver": "~3.10",
+      "references": [
+        "https://peps.python.org/pep-0619/"
+      ],
+      "lifecycle": {
+        "active_development": {
+          "date": "2021-10-04"
+        },
+        "end_of_life": {
+          "date": "2026-10"
+        }
+      }
+    },
+    {
+      "semver": "~3.9",
+      "references": [
+        "https://peps.python.org/pep-0596/"
+      ],
+      "lifecycle": {
+        "active_development": {
+          "date": "2020-10-05"
+        },
+        "end_of_life": {
+          "date": "2025-10"
+        }
+      }
+    },
+    {
+      "semver": "~3.8",
+      "references": [
+        "https://peps.python.org/pep-0569/"
+      ],
+      "lifecycle": {
+        "active_development": {
+          "date": "2019-10-14"
+        },
+        "end_of_life": {
+          "date": "2024-10"
+        }
+      }
+    },
+    {
+      "semver": "~3.7",
+      "references": [
+        "https://peps.python.org/pep-0537/"
+      ],
+      "lifecycle": {
+        "active_development": {
+          "date": "2018-06-27"
+        },
+        "end_of_life": {
+          "date": "2023-06-27"
+        }
+      }
+    },
+    {
+      "semver": "~3.6",
+      "references": [
+        "https://peps.python.org/pep-0494/"
+      ],
+      "lifecycle": {
+        "active_development": {
+          "date": "2016-12-23"
+        },
+        "end_of_life": {
+          "date": "2021-12-23"
+        }
+      }
+    },
+    {
+      "semver": "~3.5",
+      "references": [
+        "https://peps.python.org/pep-0478/"
+      ],
+      "lifecycle": {
+        "active_development": {
+          "date": "2015-09-13"
+        },
+        "end_of_life": {
+          "date": "2020-09-30"
+        }
+      }
+    },
+    {
+      "semver": "~3.4",
+      "references": [
+        "https://peps.python.org/pep-0429/"
+      ],
+      "lifecycle": {
+        "active_development": {
+          "date": "2014-03-16"
+        },
+        "end_of_life": {
+          "date": "2019-03-18"
+        }
+      }
+    },
+    {
+      "semver": "~3.3",
+      "references": [
+        "https://peps.python.org/pep-0398/"
+      ],
+      "lifecycle": {
+        "active_development": {
+          "date": "2012-09-29"
+        },
+        "end_of_life": {
+          "date": "2017-09-29"
+        }
+      }
+    },
+    {
+      "semver": "~3.2",
+      "references": [
+        "https://peps.python.org/pep-0392/"
+      ],
+      "lifecycle": {
+        "active_development": {
+          "date": "2011-02-20"
+        },
+        "end_of_life": {
+          "date": "2016-02-20"
+        }
+      }
+    },
+    {
+      "semver": "~3.1",
+      "references": [
+        "https://peps.python.org/pep-0375/"
+      ],
+      "lifecycle": {
+        "active_development": {
+          "date": "2009-06-27"
+        },
+        "end_of_life": {
+          "date": "2012-04-09"
+        }
+      }
+    },
+    {
+      "semver": "~3.0",
+      "references": [
+        "https://peps.python.org/pep-0361/"
+      ],
+      "lifecycle": {
+        "active_development": {
+          "date": "2008-12-03"
+        },
+        "end_of_life": {
+          "date": "2009-06-27"
+        }
+      }
+    },
+    {
+      "semver": "~2.7",
+      "references": [
+        "https://peps.python.org/pep-0373/"
+      ],
+      "lifecycle": {
+        "active_development": {
+          "date": "2010-07-03"
+        },
+        "end_of_life": {
+          "date": "2020-01-01"
+        }
+      }
+    },
+    {
+      "semver": "~2.6",
+      "references": [
+        "https://peps.python.org/pep-0361/"
+      ],
+      "lifecycle": {
+        "active_development": {
+          "date": "2008-10-01"
+        },
+        "end_of_life": {
+          "date": "2013-10-29"
+        }
+      }
+    }
+  ]
+}
