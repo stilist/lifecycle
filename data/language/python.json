@@ -4,6 +4,9 @@
   "description": "Python is a programming language that lets you work more quickly and integrate your systems more effectively.",
   "homepage": "https://www.python.org",
   "references": {
+    "active_development": "https://peps.python.org/pep-0602/",
+    "bugs": "https://peps.python.org/pep-0602/",
+    "security": "https://peps.python.org/pep-0602/",
     "lifecycle": "https://devguide.python.org/versions/#versions"
   },
   "commands": {
@@ -14,7 +17,32 @@
       "  '[[:digit:]]+\\.[[:digit:]]+(\\.[[:digit:]])?'"
     ]
   },
+  "lifecycle_aliases": {
+    "active_development": "features",
+    "bugs": "bugfix",
+    "end_of_life": "end-of-life"
+  },
   "versions": [
+    {
+      "semver": "~3.12",
+      "references": [
+        "https://peps.python.org/pep-0693/"
+      ],
+      "lifecycle": {
+        "active_development": {
+          "date": "2023-10-02"
+        },
+        "bugs": {
+          "date": "2024-01"
+        },
+        "security": {
+          "date": "2025-05"
+        },
+        "end_of_life": {
+          "date": "2028-10"
+        }
+      }
+    },
     {
       "semver": "~3.11",
       "references": [
@@ -23,6 +51,12 @@
       "lifecycle": {
         "active_development": {
           "date": "2022-10-24"
+        },
+        "bugs": {
+          "date": "2023-01"
+        },
+        "security": {
+          "date": "2024-05"
         },
         "end_of_life": {
           "date": "2027-10"
@@ -38,6 +72,12 @@
         "active_development": {
           "date": "2021-10-04"
         },
+        "bugs": {
+          "date": "2021-12-06"
+        },
+        "security": {
+          "date": "2023-04-03"
+        },
         "end_of_life": {
           "date": "2026-10"
         }
@@ -51,6 +91,12 @@
       "lifecycle": {
         "active_development": {
           "date": "2020-10-05"
+        },
+        "bugs": {
+          "date": "2020-12-07"
+        },
+        "security": {
+          "date": "2022-05-17"
         },
         "end_of_life": {
           "date": "2025-10"
@@ -66,6 +112,12 @@
         "active_development": {
           "date": "2019-10-14"
         },
+        "bugs": {
+          "date": "2019-12-18"
+        },
+        "security": {
+          "date": "2021-05-03"
+        },
         "end_of_life": {
           "date": "2024-10"
         }
@@ -79,6 +131,12 @@
       "lifecycle": {
         "active_development": {
           "date": "2018-06-27"
+        },
+        "bugs": {
+          "date": "2018-10-20"
+        },
+        "security": {
+          "date": "2020-06-27"
         },
         "end_of_life": {
           "date": "2023-06-27"
@@ -94,6 +152,12 @@
         "active_development": {
           "date": "2016-12-23"
         },
+        "bugs": {
+          "date": "2017-03-21"
+        },
+        "security": {
+          "date": "2018-12-24"
+        },
         "end_of_life": {
           "date": "2021-12-23"
         }
@@ -107,6 +171,9 @@
       "lifecycle": {
         "active_development": {
           "date": "2015-09-13"
+        },
+        "bugs": {
+          "date": "2015-12-06"
         },
         "end_of_life": {
           "date": "2020-09-30"
@@ -122,6 +189,9 @@
         "active_development": {
           "date": "2014-03-16"
         },
+        "bugs": {
+          "date": "2014-05-18"
+        },
         "end_of_life": {
           "date": "2019-03-18"
         }
@@ -135,6 +205,12 @@
       "lifecycle": {
         "active_development": {
           "date": "2012-09-29"
+        },
+        "bugs": {
+          "date": "2013-04-06"
+        },
+        "security": {
+          "date": "2014-03-08"
         },
         "end_of_life": {
           "date": "2017-09-29"
@@ -150,6 +226,12 @@
         "active_development": {
           "date": "2011-02-20"
         },
+        "bugs": {
+          "date": "2011-05-08"
+        },
+        "security": {
+          "date": "2013-05-13"
+        },
         "end_of_life": {
           "date": "2016-02-20"
         }
@@ -164,6 +246,12 @@
         "active_development": {
           "date": "2009-06-27"
         },
+        "bugs": {
+          "date": "2009-08-16"
+        },
+        "security": {
+          "date": "2012-06"
+        },
         "end_of_life": {
           "date": "2012-04-09"
         }
@@ -172,7 +260,9 @@
     {
       "semver": "~3.0",
       "references": [
-        "https://peps.python.org/pep-0361/"
+        "https://peps.python.org/pep-0361/",
+        "https://peps.python.org/pep-3000",
+        "https://peps.python.org/pep-3100"
       ],
       "lifecycle": {
         "active_development": {
@@ -186,11 +276,15 @@
     {
       "semver": "~2.7",
       "references": [
-        "https://peps.python.org/pep-0373/"
+        "https://peps.python.org/pep-0373/",
+        "https://www.python.org/doc/sunset-python-2/"
       ],
       "lifecycle": {
         "active_development": {
           "date": "2010-07-03"
+        },
+        "bugs": {
+          "date": "2010-11-27"
         },
         "end_of_life": {
           "date": "2020-01-01"
@@ -206,8 +300,46 @@
         "active_development": {
           "date": "2008-10-01"
         },
+        "bugs": {
+          "date": "2008-12-04"
+        },
+        "security": {
+          "date": "2011-06-03"
+        },
         "end_of_life": {
           "date": "2013-10-29"
+        }
+      }
+    },
+    {
+      "semver": "~2.5",
+      "lifecycle": {
+        "active_development": {
+          "date": "2006-09-19"
+        }
+      }
+    },
+    {
+      "semver": "~2.4",
+      "lifecycle": {
+        "active_development": {
+          "date": "2004-11-30"
+        }
+      }
+    },
+    {
+      "semver": "~2.3",
+      "lifecycle": {
+        "active_development": {
+          "date": "2003-07-29"
+        }
+      }
+    },
+    {
+      "semver": "~2.2",
+      "lifecycle": {
+        "active_development": {
+          "date": "2001-12-21"
         }
       }
     }
