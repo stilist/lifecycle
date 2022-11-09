@@ -8,7 +8,12 @@
     "lifecycle": "https://guides.rubyonrails.org/maintenance_policy.html"
   },
   "commands": {
-    "version": "gem info --exact --local rails | head -1 | egrep --only-matching '[[:digit:]]+(\\.[[:digit:]]+){2}'"
+    "version": [
+      "gem info --exact --local rails",
+      "| head -1",
+      "| egrep --only-matching",
+      "  '[[:digit:]]+(\\.[[:digit:]]+){2}'"
+    ]
   },
   "versions": [{
     "semver": "^7.0.0",
