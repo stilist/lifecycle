@@ -19,6 +19,13 @@
     "end_of_life": "eol"
   },
   "versions": [{
+    "semver": "^3.2",
+    "lifecycle": {
+      "active_development": {
+        "date": "2022-12-25"
+      }
+    }
+  }, {
     "semver": "^3.1",
     "lifecycle": {
       "active_development": {
