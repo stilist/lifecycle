@@ -9,7 +9,7 @@
   "commands": {
     "version": [
       "ruby --version",
-      "| egrep --only-matching",
+      "| grep -E --only-matching",
       "  '[[:digit:]]+\\.[[:digit:]]+\\.[[:digit:]]'"
     ]
   },
