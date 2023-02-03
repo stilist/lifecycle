@@ -59,22 +59,22 @@ lifecycle_aliases?: #lifecycle_aliases
 		//   "i386"
 		// ]
 		architectures?: [...string]
-		// An exact list of known sub-versions (point releases or patches). Each
-		// sub-version must match the specified `semver`.
-		//
-		// @example Ruby 2.6
-		// [
-		//   "2.6.0",
-		//   "2.6.1",
-		//   "2.6.2",
-		//   "2.6.3",
-		//   "2.6.4",
-		//   "2.6.5",
-		//   "2.6.6",
-		//   "2.6.7",
-		//   "2.6.8",
-		// ]
-		releases?: [...#version_number]
 	}
+	// An exact list of known sub-versions (point releases or patches). Each
+	// sub-version must match the specified `semver`.
+	//
+	// @example Ruby 2.6
+	// [
+	//   "2.6.0",
+	//   "2.6.1",
+	//   "2.6.2",
+	//   "2.6.3",
+	//   "2.6.4",
+	//   "2.6.5",
+	//   "2.6.6",
+	//   "2.6.7",
+	//   "2.6.8",
+	// ]
+	releases?: [...#version_number]
 }
 versions: [...#versions]
