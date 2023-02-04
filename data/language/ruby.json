@@ -20,27 +20,71 @@
   },
   "versions": [{
     "semver": "^3.2",
+    "references": [
+      "https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/"
+    ],
     "lifecycle": {
       "active_development": {
         "date": "2022-12-25"
       }
-    }
+    },
+    "releases": [
+      "3.2.0"
+    ]
   }, {
     "semver": "^3.1",
+    "references": [
+      "https://www.ruby-lang.org/en/news/2021/12/25/ruby-3-1-0-released/",
+      "https://www.ruby-lang.org/en/news/2022/02/18/ruby-3-1-1-released/",
+      "https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-1-2-released/",
+      "https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-1-3-released/"
+    ],
     "lifecycle": {
       "active_development": {
         "date": "2021-12-25"
       }
-    }
+    },
+    "releases": [
+      "3.1.0",
+      "3.1.1",
+      "3.1.2",
+      "3.1.3"
+    ]
   }, {
     "semver": "^3.0",
+    "references": [
+      "https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/",
+      "https://www.ruby-lang.org/en/news/2021/04/05/ruby-3-0-1-released/",
+      "https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/",
+      "https://www.ruby-lang.org/en/news/2021/11/24/ruby-3-0-3-released/",
+      "https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-0-4-released/",
+      "https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-0-5-released/"
+    ],
     "lifecycle": {
       "active_development": {
         "date": "2020-12-25"
       }
-    }
+    },
+    "releases": [
+      "3.0.0",
+      "3.0.1",
+      "3.0.2",
+      "3.0.3",
+      "3.0.4",
+      "3.0.5"
+    ]
   }, {
     "semver": "^2.7",
+    "references": [
+      "https://www.ruby-lang.org/en/news/2019/12/25/ruby-2-7-0-released/",
+      "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-7-1-released/",
+      "https://www.ruby-lang.org/en/news/2020/10/02/ruby-2-7-2-released/",
+      "https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-7-3-released/",
+      "https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-7-4-released/",
+      "https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-7-5-released/",
+      "https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-7-6-released/",
+      "https://www.ruby-lang.org/en/news/2022/11/24/ruby-2-7-7-released/"
+    ],
     "lifecycle": {
       "active_development": {
         "date": "2019-12-25"
@@ -48,9 +92,32 @@
       "security": {
         "date": "2022-04-12"
       }
-    }
+    },
+    "releases": [
+      "2.7.0",
+      "2.7.1",
+      "2.7.2",
+      "2.7.3",
+      "2.7.4",
+      "2.7.5",
+      "2.7.6",
+      "2.7.7"
+    ]
   }, {
     "semver": "^2.6",
+    "references": [
+      "https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/",
+      "https://www.ruby-lang.org/en/news/2019/01/30/ruby-2-6-1-released/",
+      "https://www.ruby-lang.org/en/news/2019/03/13/ruby-2-6-2-released/",
+      "https://www.ruby-lang.org/en/news/2019/04/17/ruby-2-6-3-released/",
+      "https://www.ruby-lang.org/en/news/2019/08/28/ruby-2-6-4-released/",
+      "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-6-5-released/",
+      "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-6-6-released/",
+      "https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-6-7-released/",
+      "https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-6-8-released/",
+      "https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-6-9-released/",
+      "https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-6-10-released/"
+    ],
     "lifecycle": {
       "active_development": {
         "date": "2018-12-25"
@@ -61,9 +128,34 @@
       "end_of_life": {
         "date": "2022-04-12"
       }
-    }
+    },
+    "releases": [
+      "2.6.0",
+      "2.6.1",
+      "2.6.2",
+      "2.6.3",
+      "2.6.4",
+      "2.6.5",
+      "2.6.6",
+      "2.6.7",
+      "2.6.8",
+      "2.6.9",
+      "2.6.10"
+    ]
   }, {
     "semver": "^2.5",
+    "references": [
+      "https://www.ruby-lang.org/en/news/2017/12/25/ruby-2-5-0-released/",
+      "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/",
+      "https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-5-2-released/",
+      "https://www.ruby-lang.org/en/news/2018/10/18/ruby-2-5-3-released/",
+      "https://www.ruby-lang.org/en/news/2019/03/13/ruby-2-5-4-released/",
+      "https://www.ruby-lang.org/en/news/2019/03/15/ruby-2-5-5-released/",
+      "https://www.ruby-lang.org/en/news/2019/08/28/ruby-2-5-6-released/",
+      "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-5-7-released/",
+      "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-5-8-released/",
+      "https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-5-9-released/"
+    ],
     "lifecycle": {
       "active_development": {
         "date": "2017-12-25"
@@ -74,9 +166,34 @@
       "end_of_life": {
         "date": "2021-03-31"
       }
-    }
+    },
+    "releases": [
+      "2.5.0",
+      "2.5.1",
+      "2.5.2",
+      "2.5.3",
+      "2.5.4",
+      "2.5.5",
+      "2.5.6",
+      "2.5.7",
+      "2.5.8",
+      "2.5.9"
+    ]
   }, {
     "semver": "^2.4",
+    "references": [
+      "https://www.ruby-lang.org/en/news/2016/12/25/ruby-2-4-0-released/",
+      "https://www.ruby-lang.org/en/news/2017/03/22/ruby-2-4-1-released/",
+      "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-4-2-released/",
+      "https://www.ruby-lang.org/en/news/2017/12/14/ruby-2-4-3-released/",
+      "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-4-4-released/",
+      "https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-4-5-released/",
+      "https://www.ruby-lang.org/en/news/2019/04/01/ruby-2-4-6-released/",
+      "https://www.ruby-lang.org/en/news/2019/08/28/ruby-2-4-7-released/",
+      "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-4-8-released/",
+      "https://www.ruby-lang.org/en/news/2019/10/02/ruby-2-4-9-released/",
+      "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-4-10-released/"
+    ],
     "lifecycle": {
       "active_development": {
         "date": "2016-12-25"
@@ -87,9 +204,33 @@
       "end_of_life": {
         "date": "2020-03-31"
       }
-    }
+    },
+    "releases": [
+      "2.4.0",
+      "2.4.1",
+      "2.4.2",
+      "2.4.3",
+      "2.4.4",
+      "2.4.5",
+      "2.4.6",
+      "2.4.7",
+      "2.4.8",
+      "2.4.9",
+      "2.4.10"
+    ]
   }, {
     "semver": "^2.3",
+    "references": [
+      "https://www.ruby-lang.org/en/news/2015/12/25/ruby-2-3-0-released/",
+      "https://www.ruby-lang.org/en/news/2016/04/26/ruby-2-3-1-released/",
+      "https://www.ruby-lang.org/en/news/2016/11/15/ruby-2-3-2-released/",
+      "https://www.ruby-lang.org/en/news/2016/11/21/ruby-2-3-3-released/",
+      "https://www.ruby-lang.org/en/news/2017/03/30/ruby-2-3-4-released/",
+      "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-3-5-released/",
+      "https://www.ruby-lang.org/en/news/2017/12/14/ruby-2-3-6-released/",
+      "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-3-7-released/",
+      "https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-3-8-released/"
+    ],
     "lifecycle": {
       "active_development": {
         "date": "2015-12-25"
@@ -100,9 +241,33 @@
       "end_of_life": {
         "date": "2019-03-31"
       }
-    }
+    },
+    "releases": [
+      "2.3.0",
+      "2.3.1",
+      "2.3.2",
+      "2.3.3",
+      "2.3.4",
+      "2.3.5",
+      "2.3.6",
+      "2.3.7",
+      "2.3.8"
+    ]
   }, {
     "semver": "^2.2",
+    "references": [
+      "https://www.ruby-lang.org/en/news/2014/12/25/ruby-2-2-0-released/",
+      "https://www.ruby-lang.org/en/news/2015/03/03/ruby-2-2-1-released/",
+      "https://www.ruby-lang.org/en/news/2015/04/13/ruby-2-2-2-released/",
+      "https://www.ruby-lang.org/en/news/2015/08/18/ruby-2-2-3-released/",
+      "https://www.ruby-lang.org/en/news/2015/12/16/ruby-2-2-4-released/",
+      "https://www.ruby-lang.org/en/news/2016/04/26/ruby-2-2-5-released/",
+      "https://www.ruby-lang.org/en/news/2016/11/15/ruby-2-2-6-released/",
+      "https://www.ruby-lang.org/en/news/2017/03/28/ruby-2-2-7-released/",
+      "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-2-8-released/",
+      "https://www.ruby-lang.org/en/news/2017/12/14/ruby-2-2-9-released/",
+      "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-2-10-released/"
+    ],
     "lifecycle": {
       "active_development": {
         "date": "2014-12-25"
@@ -113,9 +278,35 @@
       "end_of_life": {
         "date": "2018-03-31"
       }
-    }
+    },
+    "releases": [
+      "2.2.0",
+      "2.2.1",
+      "2.2.2",
+      "2.2.3",
+      "2.2.4",
+      "2.2.5",
+      "2.2.6",
+      "2.2.7",
+      "2.2.8",
+      "2.2.9",
+      "2.2.10"
+    ]
   }, {
     "semver": "^2.1",
+    "references": [
+      "https://www.ruby-lang.org/en/news/2013/12/25/ruby-2-1-0-is-released/",
+      "https://www.ruby-lang.org/en/news/2014/02/24/ruby-2-1-1-is-released/",
+      "https://www.ruby-lang.org/en/news/2014/05/09/ruby-2-1-2-is-released/",
+      "https://www.ruby-lang.org/en/news/2014/09/19/ruby-2-1-3-is-released/",
+      "https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-1-4-released/",
+      "https://www.ruby-lang.org/en/news/2014/11/13/ruby-2-1-5-is-released/",
+      "https://www.ruby-lang.org/en/news/2015/04/13/ruby-2-1-6-released/",
+      "https://www.ruby-lang.org/en/news/2015/08/18/ruby-2-1-7-released/",
+      "https://www.ruby-lang.org/en/news/2015/12/16/ruby-2-1-8-released/",
+      "https://www.ruby-lang.org/en/news/2016/03/30/ruby-2-1-9-released/",
+      "https://www.ruby-lang.org/en/news/2016/04/01/ruby-2-1-10-released/"
+    ],
     "lifecycle": {
       "active_development": {
         "date": "2013-12-25"
@@ -123,9 +314,37 @@
       "end_of_life": {
         "date": "2017-03-31"
       }
-    }
+    },
+    "releases": [
+      "2.1.0",
+      "2.1.1",
+      "2.1.2",
+      "2.1.3",
+      "2.1.4",
+      "2.1.5",
+      "2.1.6",
+      "2.1.7",
+      "2.1.8",
+      "2.1.9",
+      "2.1.10"
+    ]
   }, {
     "semver": "^2.0",
+    "references": [
+      "https://www.ruby-lang.org/en/news/2013/02/24/ruby-2-0-0-p0-is-released/",
+      "https://www.ruby-lang.org/en/news/2013/05/14/ruby-2-0-0-p195-is-released/",
+      "https://www.ruby-lang.org/en/news/2013/06/27/ruby-2-0-0-p247-is-released/",
+      "https://www.ruby-lang.org/en/news/2013/11/22/ruby-2-0-0-p353-is-released/",
+      "https://www.ruby-lang.org/en/news/2014/02/24/ruby-2-0-0-p451-is-released/",
+      "https://www.ruby-lang.org/en/news/2014/05/09/ruby-2-0-0-p481-is-released/",
+      "https://www.ruby-lang.org/en/news/2014/09/19/ruby-2-0-0-p576-is-released/",
+      "https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-0-0-p594-is-released/",
+      "https://www.ruby-lang.org/en/news/2014/11/13/ruby-2-0-0-p598-is-released/",
+      "https://www.ruby-lang.org/en/news/2015/02/25/ruby-2-0-0-p643-is-released/",
+      "https://www.ruby-lang.org/en/news/2015/04/13/ruby-2-0-0-p645-released/",
+      "https://www.ruby-lang.org/en/news/2015/08/18/ruby-2-0-0-p647-released/",
+      "https://www.ruby-lang.org/en/news/2015/12/16/ruby-2-0-0-p648-released/"
+    ],
     "lifecycle": {
       "active_development": {
         "date": "2013-02-24"
@@ -133,9 +352,43 @@
       "end_of_life": {
         "date": "2016-02-24"
       }
-    }
+    },
+    "releases": [
+      "2.0.0",
+      "2.0.0-p0",
+      "2.0.0-p195",
+      "2.0.0-p247",
+      "2.0.0-p353",
+      "2.0.0-p451",
+      "2.0.0-p481",
+      "2.0.0-p576",
+      "2.0.0-p594",
+      "2.0.0-p598",
+      "2.0.0-p643",
+      "2.0.0-p645",
+      "2.0.0-p647",
+      "2.0.0-p648"
+    ]
   }, {
     "semver": "1.9.3",
+    "references": [
+      "https://www.ruby-lang.org/en/news/2011/10/31/ruby-1-9-3-p0-is-released/",
+      "https://www.ruby-lang.org/en/news/2012/02/16/ruby-1-9-3-p125-is-released/",
+      "https://www.ruby-lang.org/en/news/2012/04/20/ruby-1-9-3-p194-is-released/",
+      "https://www.ruby-lang.org/en/news/2012/10/12/ruby-1-9-3-p286-is-released/",
+      "https://www.ruby-lang.org/en/news/2012/11/09/ruby-1-9-3-p327-is-released/",
+      "https://www.ruby-lang.org/en/news/2012/12/25/ruby-1-9-3-p362-is-released/",
+      "https://www.ruby-lang.org/en/news/2013/01/17/ruby-1-9-3-p374-is-released/",
+      "https://www.ruby-lang.org/en/news/2013/02/06/ruby-1-9-3-p385-is-released/",
+      "https://www.ruby-lang.org/en/news/2013/02/22/ruby-1-9-3-p392-is-released/",
+      "https://www.ruby-lang.org/en/news/2013/05/14/ruby-1-9-3-p429-is-released/",
+      "https://www.ruby-lang.org/en/news/2013/06/27/ruby-1-9-3-p448-is-released/",
+      "https://www.ruby-lang.org/en/news/2013/11/22/ruby-1-9-3-p484-is-released/",
+      "https://www.ruby-lang.org/en/news/2014/02/24/ruby-1-9-3-p545-is-released/",
+      "https://www.ruby-lang.org/en/news/2014/05/16/ruby-1-9-3-p547-released/",
+      "https://www.ruby-lang.org/en/news/2014/10/27/ruby-1-9-3-p550-is-released/",
+      "https://www.ruby-lang.org/en/news/2014/11/13/ruby-1-9-3-p551-is-released/"
+    ],
     "lifecycle": {
       "active_development": {
         "date": "2011-10-31"
@@ -143,6 +396,1215 @@
       "end_of_life": {
         "date": "2015-02-23"
       }
-    }
+    },
+    "releases": [
+      "1.9.3",
+      "1.9.3-p0",
+      "1.9.3-p105",
+      "1.9.3-p125",
+      "1.9.3-p194",
+      "1.9.3-p286",
+      "1.9.3-p327",
+      "1.9.3-p362",
+      "1.9.3-p374",
+      "1.9.3-p385",
+      "1.9.3-p392",
+      "1.9.3-p426",
+      "1.9.3-p429",
+      "1.9.3-p448",
+      "1.9.3-p484",
+      "1.9.3-p545",
+      "1.9.3-p547",
+      "1.9.3-p550",
+      "1.9.3-p551"
+    ]
+  }, {
+    "semver": "1.9.2",
+    "references": [
+      "https://www.ruby-lang.org/en/news/2010/08/18/ruby-1-9-2-released/",
+      "https://www.ruby-lang.org/en/news/2010/12/25/ruby-1-9-2-p136-is-released/",
+      "https://www.ruby-lang.org/en/news/2011/07/15/ruby-1-9-2-p290-is-released/",
+      "https://www.ruby-lang.org/en/news/2012/04/21/ruby-1-9-2-p320-is-released/",
+      "https://www.ruby-lang.org/en/news/2014/08/19/ruby-1-9-2-p330-released/"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2010-08-18"
+      }
+    },
+    "releases": [
+      "1.9.2",
+      "1.9.2-p0",
+      "1.9.2-p136",
+      "1.9.2-p180",
+      "1.9.2-p290",
+      "1.9.2-p318",
+      "1.9.2-p320",
+      "1.9.2-p330"
+    ]
+  }, {
+    "semver": "1.9.1",
+    "references": [
+      "https://www.ruby-lang.org/en/news/2009/01/30/ruby-1-9-1-released/",
+      "https://www.ruby-lang.org/en/news/2009/05/12/ruby-1-9-1-p129-released/",
+      "https://www.ruby-lang.org/en/news/2009/07/20/ruby-1-9-1-p243-released/",
+      "https://www.ruby-lang.org/en/news/2009/12/07/ruby-1-9-1-p376-is-released/",
+      "https://www.ruby-lang.org/en/news/2010/07/02/ruby-1-9-1-p429-is-released/",
+      "https://www.ruby-lang.org/en/news/2010/08/16/ruby-1-9-1-p430-is-released/"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2009-01-30"
+      }
+    },
+    "releases": [
+      "1.9.1",
+      "1.9.1-p0",
+      "1.9.1-p129",
+      "1.9.1-p243",
+      "1.9.1-p376",
+      "1.9.1-p378",
+      "1.9.1-p429",
+      "1.9.1-p430",
+      "1.9.1-p431"
+    ]
+  }, {
+    "semver": "1.9.0",
+    "references": [
+      "https://www.ruby-lang.org/en/news/2007/12/25/ruby-1-9-0-released/"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2007-12-25"
+      }
+    },
+    "releases": [
+      "1.9.0",
+      "1.9.0-1",
+      "1.9.0-2",
+      "1.9.0-3",
+      "1.9.0-4",
+      "1.9.0-5"
+    ]
+  }, {
+    "semver": "1.8.7",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_8_7",
+      "https://www.ruby-lang.org/en/news/2008/05/31/ruby-1-8-7-has-been-released/",
+      "https://www.ruby-lang.org/en/news/2008/08/11/ruby-1-8-7-p72-and-1-8-6-p287-released/",
+      "https://www.ruby-lang.org/en/news/2009/04/18/ruby-1-8-7-p160-and-1-8-6-p368-released/",
+      "https://www.ruby-lang.org/en/news/2009/12/25/ruby-1-8-7-p248-released/",
+      "https://www.ruby-lang.org/en/news/2010/06/23/ruby-1-8-7-p299-released/",
+      "https://www.ruby-lang.org/en/news/2010/08/16/ruby-1-8-7-p302-is-released/",
+      "https://www.ruby-lang.org/en/news/2010/12/25/ruby-1-8-7-p330-released/",
+      "https://www.ruby-lang.org/en/news/2011/07/02/ruby-1-8-7-p352-released/",
+      "https://www.ruby-lang.org/en/news/2012/06/29/ruby-1-8-7-p370-released/",
+      "https://www.ruby-lang.org/en/news/2013/06/27/ruby-1-8-7-p374-is-released/",
+      "https://www.ruby-lang.org/en/news/2013/06/30/we-retire-1-8-7/"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2008-05-31"
+      }
+    },
+    "releases": [
+      "1.8.7",
+      "1.8.7-p17",
+      "1.8.7-p22",
+      "1.8.7-p71",
+      "1.8.7-p72",
+      "1.8.7-p160",
+      "1.8.7-p173",
+      "1.8.7-p174",
+      "1.8.7-p248",
+      "1.8.7-p249",
+      "1.8.7-p299",
+      "1.8.7-p301",
+      "1.8.7-p302",
+      "1.8.7-p330",
+      "1.8.7-p334",
+      "1.8.7-p352",
+      "1.8.7-p357",
+      "1.8.7-p358",
+      "1.8.7-p370",
+      "1.8.7-p371",
+      "1.8.7-p373",
+      "1.8.7-p374"
+    ]
+  }, {
+    "semver": "1.8.6",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_8_6",
+      "https://blade.ruby-lang.org/ruby-list/43267",
+      "https://www.ruby-lang.org/en/news/2007/03/12/ruby-1-8-6-released/",
+      "https://www.ruby-lang.org/en/news/2008/08/11/ruby-1-8-7-p72-and-1-8-6-p287-released/",
+      "https://www.ruby-lang.org/en/news/2009/04/18/ruby-1-8-7-p160-and-1-8-6-p368-released/"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2007-03-13"
+      }
+    },
+    "releases": [
+      "1.8.6",
+      "1.8.6-p36",
+      "1.8.6-p110",
+      "1.8.6-p111",
+      "1.8.6-p114",
+      "1.8.6-p230",
+      "1.8.6-p286",
+      "1.8.6-p287",
+      "1.8.6-p368",
+      "1.8.6-p369",
+      "1.8.6-p383",
+      "1.8.6-p388",
+      "1.8.6-p398",
+      "1.8.6-p399",
+      "1.8.6-p420"
+    ]
+  }, {
+    "semver": "1.8.5",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_8_5",
+      "https://www.ruby-lang.org/en/news/2006/08/29/ruby-1-8-5-released/"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2006-08-25"
+      }
+    },
+    "releases": [
+      "1.8.5",
+      "1.8.5-p2",
+      "1.8.5-p11",
+      "1.8.5-p12",
+      "1.8.5-p35",
+      "1.8.5-p52",
+      "1.8.5-p113",
+      "1.8.5-p114",
+      "1.8.5-p115",
+      "1.8.5-p231"
+    ]
+  }, {
+    "semver": "1.8.4",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_8_4",
+      "https://www.ruby-lang.org/en/news/2005/12/24/ruby-184-released/"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2005-12-24"
+      }
+    },
+    "releases": [
+      "1.8.4"
+    ]
+  }, {
+    "semver": "1.8.3",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_8_3",
+      "https://www.ruby-lang.org/en/news/2005/09/21/ruby-183-released/"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2005-09-21"
+      }
+    },
+    "releases": [
+      "1.8.3"
+    ]
+  }, {
+    "semver": "1.8.2",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_8_2",
+      "https://www.ruby-lang.org/en/news/2004/12/26/ruby-182-released/"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2004-12-24"
+      }
+    },
+    "releases": [
+      "1.8.2"
+    ]
+  }, {
+    "semver": "1.8.1",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_8_1"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2003-12-25"
+      }
+    },
+    "releases": [
+      "1.8.1"
+    ]
+  }, {
+    "semver": "1.8.0",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_8_0",
+      "https://www.ruby-lang.org/en/news/2003/08/04/ruby-180-released/"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2003-08-04"
+      },
+      "end_of_life": {
+        "date": "2013-06"
+      }
+    },
+    "releases": [
+      "1.8.0"
+    ]
+  }, {
+    "semver": "^1.7",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_7_1"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2001-06-01"
+      }
+    },
+    "releases": [
+      "1.7.1"
+    ]
+  }, {
+    "semver": "1.6.7",
+    "references": [
+      "https://www.ruby-lang.org/en/news/2002/03/01/167-is-released/"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2002-03-01"
+      }
+    },
+    "releases": [
+      "1.6.7"
+    ]
+  }, {
+    "semver": "^1.6",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_6_0"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "2000-08-31"
+      }
+    },
+    "releases": [
+      "1.6.0",
+      "1.6.1",
+      "1.6.2",
+      "1.6.3",
+      "1.6.4",
+      "1.6.5",
+      "1.6.6",
+      "1.6.8"
+    ]
+  }, {
+    "semver": "^1.5",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_5_0"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1999-12-07"
+      }
+    },
+    "releases": [
+      "1.5.0"
+    ]
+  }, {
+    "semver": "^1.4",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_4_0"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1999-08-13"
+      }
+    },
+    "releases": [
+      "1.4.0",
+      "1.4.1",
+      "1.4.2",
+      "1.4.3",
+      "1.4.4",
+      "1.4.5",
+      "1.4.6"
+    ]
+  }, {
+    "semver": "^1.3",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_3_1_990126"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1999-01-20"
+      }
+    },
+    "releases": [
+      "1.3",
+      "1.3.1-990215",
+      "1.3.1-990224",
+      "1.3.1-990225",
+      "1.3.1-990311",
+      "1.3.1-990315",
+      "1.3.1-990324",
+      "1.3.2-990402",
+      "1.3.2-990405",
+      "1.3.2-990408",
+      "1.3.2-990413",
+      "1.3.3-990430",
+      "1.3.3-990507",
+      "1.3.3-990513",
+      "1.3.3-990518",
+      "1.3.4-990531",
+      "1.3.4-990611",
+      "1.3.4-990624",
+      "1.3.4-990625",
+      "1.3.5",
+      "1.3.6",
+      "1.3.7"
+    ]
+  }, {
+    "semver": "^1.2",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_2_stable"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1998-12-25"
+      }
+    },
+    "releases": [
+      "1.2",
+      "1.2.1",
+      "1.2.2",
+      "1.2.3",
+      "1.2.4",
+      "1.2.5",
+      "1.2.6"
+    ]
+  }, {
+    "semver": "^1.0",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_1b6",
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_1c0",
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_1d1"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1998-01-23"
+      }
+    },
+    "releases": [
+      "1.1a0",
+      "1.1a1",
+      "1.1a2",
+      "1.1a3",
+      "1.1a4",
+      "1.1a5",
+      "1.1a6",
+      "1.1a7",
+      "1.1a8",
+      "1.1a9",
+      "1.1b0",
+      "1.1b1",
+      "1.1b2",
+      "1.1b3",
+      "1.1b4",
+      "1.1b5",
+      "1.1b6",
+      "1.1b7",
+      "1.1b8",
+      "1.1b9",
+      "1.1b9_01",
+      "1.1b9_02",
+      "1.1b9_03",
+      "1.1b9_04",
+      "1.1b9_05",
+      "1.1b9_06",
+      "1.1b9_07",
+      "1.1b9_08",
+      "1.1b9_09",
+      "1.1b9_10",
+      "1.1b9_11",
+      "1.1b9_12",
+      "1.1b9_13",
+      "1.1b9_14",
+      "1.1b9_15",
+      "1.1b9_16",
+      "1.1b9_17",
+      "1.1b9_18",
+      "1.1b9_19",
+      "1.1b9_20",
+      "1.1b9_21",
+      "1.1b9_22",
+      "1.1b9_23",
+      "1.1b9_24",
+      "1.1b9_25",
+      "1.1b9_26",
+      "1.1b9_27",
+      "1.1b9_28",
+      "1.1b9_29",
+      "1.1b9_30",
+      "1.1b9_31",
+      "1.1b9_32",
+      "1.1c0",
+      "1.1c1",
+      "1.1c2",
+      "1.1c3",
+      "1.1c4",
+      "1.1c5",
+      "1.1c6",
+      "1.1c7",
+      "1.1c8",
+      "1.1c9",
+      "1.1d0",
+      "1.1d1"
+    ]
+  }, {
+    "semver": "1.0.0",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_0_961225"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1996-12-25"
+      }
+    },
+    "releases": [
+      "1.0-961225",
+      "1.0-971002",
+      "1.0-971003",
+      "1.0-971015",
+      "1.0-971021",
+      "1.0-971118",
+      "1.0-971125",
+      "1.0-971204",
+      "1.0-971209",
+      "1.0-971225"
+    ]
+  }, {
+    "semver": "0.99.4",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_99_4_961224"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1996-12-12"
+      }
+    },
+    "releases": [
+      "0.99.4-961212",
+      "0.99.4-961217",
+      "0.99.4-961219",
+      "0.99.4-961224"
+    ]
+  }, {
+    "semver": "0.99.3",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_99_4_961224"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1996-10-30"
+      }
+    },
+    "releases": [
+      "0.99.3-961030",
+      "0.99.3-961031",
+      "0.99.3-961105",
+      "0.99.3-961111",
+      "0.99.3-961118",
+      "0.99.3-961119",
+      "0.99.3-961126",
+      "0.99.3-961127",
+      "0.99.3-961128",
+      "0.99.3-961203",
+      "0.99.3-961204",
+      "0.99.3-961210"
+    ]
+  }, {
+    "semver": "0.99.2",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_99_4_961224"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1996-09-14"
+      }
+    },
+    "releases": [
+      "0.99.2-960914",
+      "0.99.2-960917",
+      "0.99.2-960927",
+      "0.99.2-960928",
+      "0.99.2-960930",
+      "0.99.2-961001",
+      "0.99.2-961007",
+      "0.99.2-961011",
+      "0.99.2-961015",
+      "0.99.2-961023"
+    ]
+  }, {
+    "semver": "0.99.1",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_99_4_961224"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1996-07-30"
+      }
+    },
+    "releases": [
+      "0.99.1-960730",
+      "0.99.1-960807"
+    ]
+  }, {
+    "semver": "0.99",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_99_4_961224"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1996-05-23"
+      }
+    },
+    "releases": [
+      "0.99-960523",
+      "0.99-960528",
+      "0.99-960617",
+      "0.99-960710",
+      "0.99-960716",
+      "0.99-960718",
+      "0.99-960719",
+      "0.99-960722"
+    ]
+  }, {
+    "semver": "0.98",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_99_4_961224"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1996-04-10"
+      }
+    },
+    "releases": [
+      "0.98"
+    ]
+  }, {
+    "semver": "0.97",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_99_4_961224"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1996-02-13"
+      }
+    },
+    "releases": [
+      "0.97",
+      "0.97a",
+      "0.97b",
+      "0.97c",
+      "0.97d"
+    ]
+  }, {
+    "semver": "0.96",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_99_4_961224"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1996-01-16"
+      }
+    },
+    "releases": [
+      "0.96",
+      "0.96a"
+    ]
+  }, {
+    "semver": "0.95",
+    "references": [
+      "http://blog.nicksieger.com/articles/2006/10/20/rubyconf-history-of-ruby/",
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_95"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-12-21"
+      }
+    },
+    "releases": [
+      "0.95",
+      "0.95a",
+      "0.95b",
+      "0.95c"
+    ]
+  }, {
+    "semver": "0.94",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_95"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-12-18"
+      }
+    },
+    "releases": [
+      "0.94"
+    ]
+  }, {
+    "semver": "0.93",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_95"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-11-13"
+      }
+    },
+    "releases": [
+      "0.93"
+    ]
+  }, {
+    "semver": "0.92",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_95"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-10-18"
+      }
+    },
+    "releases": [
+      "0.92"
+    ]
+  }, {
+    "semver": "0.91",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_95"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-10-11"
+      }
+    },
+    "releases": [
+      "0.91"
+    ]
+  }, {
+    "semver": "0.90",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_95"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-10-06"
+      }
+    },
+    "releases": [
+      "0.90"
+    ]
+  }, {
+    "semver": "0.89",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_95"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-10-04"
+      }
+    },
+    "releases": [
+      "0.89"
+    ]
+  }, {
+    "semver": "0.88",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_95"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-09-29"
+      }
+    },
+    "releases": [
+      "0.88"
+    ]
+  }, {
+    "semver": "0.87",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_95"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-09-25"
+      }
+    },
+    "releases": [
+      "0.87"
+    ]
+  }, {
+    "semver": "0.86",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_95"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-09-20"
+      }
+    },
+    "releases": [
+      "0.86"
+    ]
+  }, {
+    "semver": "0.85",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_95"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-09-06"
+      }
+    },
+    "releases": [
+      "0.85"
+    ]
+  }, {
+    "semver": "0.84",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_95"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-08-25"
+      }
+    },
+    "releases": [
+      "0.84"
+    ]
+  }, {
+    "semver": "0.83",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_95"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-08-08"
+      }
+    },
+    "releases": [
+      "0.83"
+    ]
+  }, {
+    "semver": "0.82",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_95"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-07-24"
+      }
+    },
+    "releases": [
+      "0.82",
+      "0.82a"
+    ]
+  }, {
+    "semver": "0.81",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_95"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-07-19"
+      }
+    },
+    "releases": [
+      "0.81"
+    ]
+  }, {
+    "semver": "0.80",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_95"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-07-07"
+      }
+    },
+    "releases": [
+      "0.80"
+    ]
+  }, {
+    "semver": "0.79",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_95"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-06-12"
+      }
+    },
+    "releases": [
+      "0.79"
+    ]
+  }, {
+    "semver": "0.78",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_95"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-06-05"
+      }
+    },
+    "releases": [
+      "0.78"
+    ]
+  }, {
+    "semver": "0.77",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_95"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-05-31"
+      }
+    },
+    "releases": [
+      "0.77"
+    ]
+  }, {
+    "semver": "0.76",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_76"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-05-19"
+      }
+    },
+    "releases": [
+      "0.76"
+    ]
+  }, {
+    "semver": "0.75",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_76"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-04-21"
+      }
+    },
+    "releases": [
+      "0.75"
+    ]
+  }, {
+    "semver": "0.74",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_76"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-04-20"
+      }
+    },
+    "releases": [
+      "0.74"
+    ]
+  }, {
+    "semver": "0.73",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_73"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-04-13"
+      }
+    },
+    "releases": [
+      "0.73",
+      "0.73-950413"
+    ]
+  }, {
+    "semver": "0.72",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_72"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-04-05"
+      }
+    },
+    "releases": [
+      "0.72"
+    ]
+  }, {
+    "semver": "0.71",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_71"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-04-03"
+      }
+    },
+    "releases": [
+      "0.71"
+    ]
+  }, {
+    "semver": "0.70",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_71"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-03-16"
+      }
+    },
+    "releases": [
+      "0.70"
+    ]
+  }, {
+    "semver": "0.69",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_69"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-03-15"
+      }
+    },
+    "releases": [
+      "0.69"
+    ]
+  }, {
+    "semver": "0.68",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_68"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-02-23"
+      }
+    },
+    "releases": [
+      "0.68"
+    ]
+  }, {
+    "semver": "0.67",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_67"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-02-21"
+      }
+    },
+    "releases": [
+      "0.67"
+    ]
+  }, {
+    "semver": "0.66",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_66"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-02-09"
+      }
+    },
+    "releases": [
+      "0.66"
+    ]
+  }, {
+    "semver": "0.65",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_65"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-02-08"
+      }
+    },
+    "releases": [
+      "0.65"
+    ]
+  }, {
+    "semver": "0.64",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_64"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1995-01-10"
+      }
+    },
+    "releases": [
+      "0.64"
+    ]
+  }, {
+    "semver": "0.63",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_63"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1994-12-20"
+      }
+    },
+    "releases": [
+      "0.63"
+    ]
+  }, {
+    "semver": "0.62",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_62"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1994-12-19"
+      }
+    },
+    "releases": [
+      "0.62"
+    ]
+  }, {
+    "semver": "0.60",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_60"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1994-12-08"
+      }
+    },
+    "releases": [
+      "0.60"
+    ]
+  }, {
+    "semver": "0.56",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_56"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1994-11-22"
+      }
+    },
+    "releases": [
+      "0.56"
+    ]
+  }, {
+    "semver": "0.55",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_55"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1994-11-18"
+      }
+    },
+    "releases": [
+      "0.55"
+    ]
+  }, {
+    "semver": "0.54",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_54"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1994-10-26"
+      }
+    },
+    "releases": [
+      "0.54"
+    ]
+  }, {
+    "semver": "0.52",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_52"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1994-10-14"
+      }
+    },
+    "releases": [
+      "0.52"
+    ]
+  }, {
+    "semver": "0.51",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_51"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1994-10-13"
+      }
+    },
+    "releases": [
+      "0.51"
+    ]
+  }, {
+    "semver": "0.50",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_50"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1994-08-10"
+      }
+    },
+    "releases": [
+      "0.50"
+    ]
+  }, {
+    "semver": "0.49",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v0_49"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1994-10-14"
+      }
+    },
+    "releases": [
+      "0.49"
+    ]
+  }, {
+    "semver": "0.07",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_49"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1994-01-14"
+      }
+    },
+    "releases": [
+      "0.07"
+    ]
+  }, {
+    "semver": "0.06",
+    "references": [
+      "https://git.ruby-lang.org/ruby.git/tree/ChangeLog?h=v0_49"
+    ],
+    "lifecycle": {
+      "active_development": {
+        "date": "1994-01-07"
+      }
+    },
+    "releases": [
+      "0.06"
+    ]
   }]
 }
