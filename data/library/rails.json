@@ -16,7 +16,7 @@
     ]
   },
   "versions": [{
-    "semver": "^7.0.0",
+    "semver": "7.0.x",
     "references": [
       "https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision"
     ],
@@ -26,7 +26,7 @@
       }
     }
   }, {
-    "semver": "^6.1.0",
+    "semver": "6.1.x",
     "references": [
       "https://rubyonrails.org/2020/12/9/Rails-6-1-0-release"
     ],
@@ -36,7 +36,7 @@
       }
     }
   }, {
-    "semver": "^6.0.0",
+    "semver": "6.0.x",
     "references": [
       "https://rubyonrails.org/2019/8/15/Rails-6-0-final-release"
     ],
@@ -49,7 +49,7 @@
       }
     }
   }, {
-    "semver": "^5.2.0",
+    "semver": "5.2.x",
     "references": [
       "https://rubyonrails.org/2018/4/15/this-week-in-rails-rails-5-2-0-performance-optimizations-space-saving-compression-and-more"
     ],
@@ -62,7 +62,7 @@
       }
     }
   }, {
-    "semver": "^5.1.0",
+    "semver": "5.1.x",
     "references": [
       "https://rubyonrails.org/2017/4/27/Rails-5-1-final"
     ],
@@ -72,7 +72,7 @@
       }
     }
   }, {
-    "semver": "^5.0.0",
+    "semver": "5.0.x",
     "references": [
       "https://rubyonrails.org/2016/6/30/Rails-5-0-final"
     ],

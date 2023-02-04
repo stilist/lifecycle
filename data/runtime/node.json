@@ -21,7 +21,7 @@
     "maintenance_lts": "Maintenance"
   },
   "versions": [{
-    "semver": "^20",
+    "semver": "20.x",
     "lifecycle": {
       "active_development": {
         "date": "2023-04-18"
@@ -37,7 +37,7 @@
       }
     }
   }, {
-    "semver": "^19",
+    "semver": "19.x",
     "lifecycle": {
       "active_development": {
         "date": "2022-10-18"
@@ -51,7 +51,7 @@
     }
   }, {
     "codename": "Hydrogen",
-    "semver": "^18",
+    "semver": "18.x",
     "lifecycle": {
       "active_development": {
         "date": "2022-04-19"
@@ -67,7 +67,7 @@
       }
     }
   }, {
-    "semver": "^17",
+    "semver": "17.x",
     "lifecycle": {
       "active_development": {
         "date": "2021-10-19"
@@ -81,7 +81,7 @@
     }
   }, {
     "codename": "Gallium",
-    "semver": "^16",
+    "semver": "16.x",
     "lifecycle": {
       "active_development": {
         "date": "2021-04-20"
@@ -94,7 +94,7 @@
       }
     }
   }, {
-    "semver": "^15",
+    "semver": "15.x",
     "lifecycle": {
       "active_development": {
         "date": "2020-10-20"
@@ -108,7 +108,7 @@
     }
   }, {
     "codename": "Fermium",
-    "semver": "^14",
+    "semver": "14.x",
     "lifecycle": {
       "active_development": {
         "date": "2020-04-21"
@@ -124,7 +124,7 @@
       }
     }
   }, {
-    "semver": "^13",
+    "semver": "13.x",
     "lifecycle": {
       "active_development": {
         "date": "2019-10-22"
@@ -138,7 +138,7 @@
     }
   }, {
     "codename": "Erbium",
-    "semver": "^12",
+    "semver": "12.x",
     "lifecycle": {
       "active_development": {
         "date": "2019-04-23"
@@ -154,7 +154,7 @@
       }
     }
   }, {
-    "semver": "^11",
+    "semver": "11.x",
     "lifecycle": {
       "active_development": {
         "date": "2018-10-23"
@@ -168,7 +168,7 @@
     }
   }, {
     "codename": "Dubnium",
-    "semver": "^10",
+    "semver": "10.x",
     "lifecycle": {
       "active_development": {
         "date": "2018-04-24"
@@ -184,7 +184,7 @@
       }
     }
   }, {
-    "semver": "^9",
+    "semver": "9.x",
     "lifecycle": {
       "active_development": {
         "date": "2017-10-01"
@@ -198,7 +198,7 @@
     }
   }, {
     "codename": "Carbon",
-    "semver": "^8",
+    "semver": "8.x",
     "lifecycle": {
       "active_development": {
         "date": "2017-05-30"
@@ -214,7 +214,7 @@
       }
     }
   }, {
-    "semver": "^7",
+    "semver": "7.x",
     "lifecycle": {
       "active_development": {
         "date": "2016-10-25"
@@ -228,7 +228,7 @@
     }
   }, {
     "codename": "Boron",
-    "semver": "^6",
+    "semver": "6.x",
     "lifecycle": {
       "active_development": {
         "date": "2016-04-26"
@@ -244,7 +244,7 @@
       }
     }
   }, {
-    "semver": "^5",
+    "semver": "5.x",
     "lifecycle": {
       "active_development": {
         "date": "2015-10-29"
@@ -258,7 +258,7 @@
     }
   }, {
     "codename": "Argon",
-    "semver": "^4",
+    "semver": "4.x",
     "lifecycle": {
       "active_development": {
         "date": "2015-09-08"
@@ -274,7 +274,7 @@
       }
     }
   }, {
-    "semver": "^0.12",
+    "semver": "0.12.x",
     "lifecycle": {
       "active_development": {
         "date": "2015-02-06"
@@ -284,7 +284,7 @@
       }
     }
   }, {
-    "semver": "^0.10",
+    "semver": "0.10.x",
     "lifecycle": {
       "active_development": {
         "date": "2013-03-11"
@@ -294,7 +294,7 @@
       }
     }
   }, {
-    "semver": "^0.8",
+    "semver": "0.8.x",
     "lifecycle": {
       "active_development": {
         "date": "2012-06-25"

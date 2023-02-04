@@ -19,7 +19,7 @@
     "end_of_life": "eol"
   },
   "versions": [{
-    "semver": "^3.2",
+    "semver": "3.2.x",
     "references": [
       "https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/"
     ],
@@ -32,7 +32,7 @@
       "3.2.0"
     ]
   }, {
-    "semver": "^3.1",
+    "semver": "3.1.x",
     "references": [
       "https://www.ruby-lang.org/en/news/2021/12/25/ruby-3-1-0-released/",
       "https://www.ruby-lang.org/en/news/2022/02/18/ruby-3-1-1-released/",
@@ -51,7 +51,7 @@
       "3.1.3"
     ]
   }, {
-    "semver": "^3.0",
+    "semver": "3.0.x",
     "references": [
       "https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/",
       "https://www.ruby-lang.org/en/news/2021/04/05/ruby-3-0-1-released/",
@@ -74,7 +74,7 @@
       "3.0.5"
     ]
   }, {
-    "semver": "^2.7",
+    "semver": "2.7.x",
     "references": [
       "https://www.ruby-lang.org/en/news/2019/12/25/ruby-2-7-0-released/",
       "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-7-1-released/",
@@ -104,7 +104,7 @@
       "2.7.7"
     ]
   }, {
-    "semver": "^2.6",
+    "semver": "2.6.x",
     "references": [
       "https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/",
       "https://www.ruby-lang.org/en/news/2019/01/30/ruby-2-6-1-released/",
@@ -143,7 +143,7 @@
       "2.6.10"
     ]
   }, {
-    "semver": "^2.5",
+    "semver": "2.5.x",
     "references": [
       "https://www.ruby-lang.org/en/news/2017/12/25/ruby-2-5-0-released/",
       "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/",
@@ -180,7 +180,7 @@
       "2.5.9"
     ]
   }, {
-    "semver": "^2.4",
+    "semver": "2.4.x",
     "references": [
       "https://www.ruby-lang.org/en/news/2016/12/25/ruby-2-4-0-released/",
       "https://www.ruby-lang.org/en/news/2017/03/22/ruby-2-4-1-released/",
@@ -219,7 +219,7 @@
       "2.4.10"
     ]
   }, {
-    "semver": "^2.3",
+    "semver": "2.3.x",
     "references": [
       "https://www.ruby-lang.org/en/news/2015/12/25/ruby-2-3-0-released/",
       "https://www.ruby-lang.org/en/news/2016/04/26/ruby-2-3-1-released/",
@@ -254,7 +254,7 @@
       "2.3.8"
     ]
   }, {
-    "semver": "^2.2",
+    "semver": "2.2.x",
     "references": [
       "https://www.ruby-lang.org/en/news/2014/12/25/ruby-2-2-0-released/",
       "https://www.ruby-lang.org/en/news/2015/03/03/ruby-2-2-1-released/",
@@ -293,7 +293,7 @@
       "2.2.10"
     ]
   }, {
-    "semver": "^2.1",
+    "semver": "2.1.x",
     "references": [
       "https://www.ruby-lang.org/en/news/2013/12/25/ruby-2-1-0-is-released/",
       "https://www.ruby-lang.org/en/news/2014/02/24/ruby-2-1-1-is-released/",
@@ -329,7 +329,7 @@
       "2.1.10"
     ]
   }, {
-    "semver": "^2.0",
+    "semver": "2.0.x",
     "references": [
       "https://www.ruby-lang.org/en/news/2013/02/24/ruby-2-0-0-p0-is-released/",
       "https://www.ruby-lang.org/en/news/2013/05/14/ruby-2-0-0-p195-is-released/",
@@ -658,7 +658,7 @@
       "1.8.0"
     ]
   }, {
-    "semver": "^1.7",
+    "semver": "1.7.x",
     "references": [
       "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_7_1"
     ],
@@ -684,7 +684,7 @@
       "1.6.7"
     ]
   }, {
-    "semver": "^1.6",
+    "semver": "1.6.x",
     "references": [
       "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_6_0"
     ],
@@ -704,7 +704,7 @@
       "1.6.8"
     ]
   }, {
-    "semver": "^1.5",
+    "semver": "1.5.x",
     "references": [
       "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_5_0"
     ],
@@ -717,7 +717,7 @@
       "1.5.0"
     ]
   }, {
-    "semver": "^1.4",
+    "semver": "1.4.x",
     "references": [
       "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_4_0"
     ],
@@ -736,7 +736,7 @@
       "1.4.6"
     ]
   }, {
-    "semver": "^1.3",
+    "semver": "1.3.x",
     "references": [
       "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_3_1_990126"
     ],
@@ -770,7 +770,7 @@
       "1.3.7"
     ]
   }, {
-    "semver": "^1.2",
+    "semver": "1.2.x",
     "references": [
       "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_2_stable"
     ],
@@ -789,7 +789,7 @@
       "1.2.6"
     ]
   }, {
-    "semver": "^1.0",
+    "semver": "1.0.x",
     "references": [
       "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_1b6",
       "https://git.ruby-lang.org/ruby.git/tree/version.h?h=v1_1c0",

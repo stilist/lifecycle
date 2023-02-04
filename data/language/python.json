@@ -24,7 +24,7 @@
   },
   "versions": [
     {
-      "semver": "~3.12",
+      "semver": "3.12.x",
       "references": [
         "https://peps.python.org/pep-0693/"
       ],
@@ -44,7 +44,7 @@
       }
     },
     {
-      "semver": "~3.11",
+      "semver": "3.11.x",
       "references": [
         "https://peps.python.org/pep-0664/"
       ],
@@ -64,7 +64,7 @@
       }
     },
     {
-      "semver": "~3.10",
+      "semver": "3.10.x",
       "references": [
         "https://peps.python.org/pep-0619/"
       ],
@@ -84,7 +84,7 @@
       }
     },
     {
-      "semver": "~3.9",
+      "semver": "3.9.x",
       "references": [
         "https://peps.python.org/pep-0596/"
       ],
@@ -104,7 +104,7 @@
       }
     },
     {
-      "semver": "~3.8",
+      "semver": "3.8.x",
       "references": [
         "https://peps.python.org/pep-0569/"
       ],
@@ -124,7 +124,7 @@
       }
     },
     {
-      "semver": "~3.7",
+      "semver": "3.7.x",
       "references": [
         "https://peps.python.org/pep-0537/"
       ],
@@ -144,7 +144,7 @@
       }
     },
     {
-      "semver": "~3.6",
+      "semver": "3.6.x",
       "references": [
         "https://peps.python.org/pep-0494/"
       ],
@@ -164,7 +164,7 @@
       }
     },
     {
-      "semver": "~3.5",
+      "semver": "3.5.x",
       "references": [
         "https://peps.python.org/pep-0478/"
       ],
@@ -181,7 +181,7 @@
       }
     },
     {
-      "semver": "~3.4",
+      "semver": "3.4.x",
       "references": [
         "https://peps.python.org/pep-0429/"
       ],
@@ -198,7 +198,7 @@
       }
     },
     {
-      "semver": "~3.3",
+      "semver": "3.3.x",
       "references": [
         "https://peps.python.org/pep-0398/"
       ],
@@ -218,7 +218,7 @@
       }
     },
     {
-      "semver": "~3.2",
+      "semver": "3.2.x",
       "references": [
         "https://peps.python.org/pep-0392/"
       ],
@@ -238,7 +238,7 @@
       }
     },
     {
-      "semver": "~3.1",
+      "semver": "3.1.x",
       "references": [
         "https://peps.python.org/pep-0375/"
       ],
@@ -258,7 +258,7 @@
       }
     },
     {
-      "semver": "~3.0",
+      "semver": "3.0.x",
       "references": [
         "https://peps.python.org/pep-0361/",
         "https://peps.python.org/pep-3000",
@@ -274,7 +274,7 @@
       }
     },
     {
-      "semver": "~2.7",
+      "semver": "2.7.x",
       "references": [
         "https://peps.python.org/pep-0373/",
         "https://www.python.org/doc/sunset-python-2/"
@@ -292,7 +292,7 @@
       }
     },
     {
-      "semver": "~2.6",
+      "semver": "2.6.x",
       "references": [
         "https://peps.python.org/pep-0361/"
       ],
@@ -312,7 +312,7 @@
       }
     },
     {
-      "semver": "~2.5",
+      "semver": "2.5.x",
       "lifecycle": {
         "active_development": {
           "date": "2006-09-19"
@@ -320,7 +320,7 @@
       }
     },
     {
-      "semver": "~2.4",
+      "semver": "2.4.x",
       "lifecycle": {
         "active_development": {
           "date": "2004-11-30"
@@ -328,7 +328,7 @@
       }
     },
     {
-      "semver": "~2.3",
+      "semver": "2.3.x",
       "lifecycle": {
         "active_development": {
           "date": "2003-07-29"
@@ -336,7 +336,7 @@
       }
     },
     {
-      "semver": "~2.2",
+      "semver": "2.2.x",
       "lifecycle": {
         "active_development": {
           "date": "2001-12-21"

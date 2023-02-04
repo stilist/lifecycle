@@ -33,7 +33,7 @@
     "references": [
       "https://wiki.debian.org/DebianBullseye"
     ],
-    "semver": "^11",
+    "semver": "1.x1",
     "lifecycle": {
       "active_development": {
         "date": "2021-08-14",
@@ -67,7 +67,7 @@
     "references": [
       "https://wiki.debian.org/DebianBuster"
     ],
-    "semver": "^10",
+    "semver": "1.x0",
     "lifecycle": {
       "active_development": {
         "date": "2019-07-06",
@@ -99,7 +99,7 @@
     }
   }, {
     "codename": "wheezy",
-    "semver": "^7",
+    "semver": "7.x",
     "lifecycle": {
       "active_development": {
         "date": "2013-05-04",
@@ -142,7 +142,7 @@
     "references": [
       "https://wiki.debian.org/DebianStretch"
     ],
-    "semver": "^9",
+    "semver": "9.x",
     "lifecycle": {
       "active_development": {
         "date": "2017-06-17",
@@ -181,7 +181,7 @@
     "references": [
       "https://wiki.debian.org/DebianJessie"
     ],
-    "semver": "^8",
+    "semver": "8.x",
     "lifecycle": {
       "active_development": {
         "date": "2015-04-25"

@@ -15,7 +15,7 @@
   },
   "versions": [
     {
-      "semver": "^3.0",
+      "semver": "3.0.x",
       "lifecycle": {
         "active_development": {
           "date": "2021-09-07"
