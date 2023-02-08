@@ -9,7 +9,9 @@
   },
   "commands": {
     "version": [
-      "gem info --exact --local rails",
+      "( (command -v bundle > /dev/null 2>&1)",
+      " && bundle exec gem info --exact --local rails)",
+      "|| gem info --exact --local rails",
       "| head -1",
       "| egrep --only-matching",
       "  '[[:digit:]]+(\\.[[:digit:]]+){2}'"

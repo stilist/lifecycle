@@ -10,7 +10,7 @@
     "version": [
       "ruby --version",
       "| grep -E --only-matching",
-      "  '[[:digit:]]+\\.[[:digit:]]+\\.[[:digit:]]'"
+      "  \"[[:digit:]]+\\.[[:digit:]]+\\.[[:digit:]]\""
     ]
   },
   "lifecycle_aliases": {

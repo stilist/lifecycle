@@ -11,8 +11,8 @@
   },
   "commands": {
     "version": [
-      "((which python > /dev/null) && python --version)",
-      "|| ((which python3 > /dev/null && python3 --version)",
+      "( (command -v python3 > /dev/null 2>&1) && python3 --version)",
+      "|| ( (command -v python > /dev/null 2>&1) && python --version)",
       "| grep -E --only-matching",
       "  '[[:digit:]]+\\.[[:digit:]]+(\\.[[:digit:]])?'"
     ]
