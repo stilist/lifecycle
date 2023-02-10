@@ -26,6 +26,9 @@
     "lifecycle": {
       "active_development": {
         "date": "2022-12-25"
+      },
+      "end_of_life": {
+        "date": "2026-03-31"
       }
     },
     "releases": [
@@ -42,6 +45,9 @@
     "lifecycle": {
       "active_development": {
         "date": "2021-12-25"
+      },
+      "end_of_life": {
+        "date": "2025-03-31"
       }
     },
     "releases": [
@@ -63,6 +69,9 @@
     "lifecycle": {
       "active_development": {
         "date": "2020-12-25"
+      },
+      "end_of_life": {
+        "date": "2024-03-31"
       }
     },
     "releases": [
@@ -91,6 +100,9 @@
       },
       "security": {
         "date": "2022-04-12"
+      },
+      "end_of_life": {
+        "date": "2023-03-31"
       }
     },
     "releases": [

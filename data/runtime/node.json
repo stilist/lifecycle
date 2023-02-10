@@ -91,6 +91,9 @@
       },
       "maintenance_lts": {
         "date": "2022-10-18"
+      },
+      "end_of_life": {
+        "date": "2023-09-11"
       }
     }
   }, {
