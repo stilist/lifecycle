@@ -98,46 +98,6 @@
       }
     }
   }, {
-    "codename": "wheezy",
-    "semver": "7.x",
-    "lifecycle": {
-      "active_development": {
-        "date": "2013-05-04",
-        "architectures": [
-          "amd64",
-          "armel",
-          "armhf",
-          "i386",
-          "ia64",
-          "mips",
-          "mipsel",
-          "powerpc",
-          "s390",
-          "s390x",
-          "sparc"
-        ]
-      },
-      "active_lts": {
-        "date": "2016-04-26",
-        "architectures": [
-          "amd64",
-          "armel",
-          "armhf",
-          "i386"
-        ]
-      },
-      "community_lts": {
-        "date": "2018-06-01",
-        "architectures": [
-          "amd64",
-          "i386"
-        ]
-      },
-      "end_of_life": {
-        "date": "2020-06-30"
-      }
-    }
-  }, {
     "codename": "stretch",
     "references": [
       "https://wiki.debian.org/DebianStretch"
@@ -200,6 +160,46 @@
         "architectures": [
           "amd64",
           "armel",
+          "i386"
+        ]
+      },
+      "end_of_life": {
+        "date": "2020-06-30"
+      }
+    }
+  }, {
+    "codename": "wheezy",
+    "semver": "7.x",
+    "lifecycle": {
+      "active_development": {
+        "date": "2013-05-04",
+        "architectures": [
+          "amd64",
+          "armel",
+          "armhf",
+          "i386",
+          "ia64",
+          "mips",
+          "mipsel",
+          "powerpc",
+          "s390",
+          "s390x",
+          "sparc"
+        ]
+      },
+      "active_lts": {
+        "date": "2016-04-26",
+        "architectures": [
+          "amd64",
+          "armel",
+          "armhf",
+          "i386"
+        ]
+      },
+      "community_lts": {
+        "date": "2018-06-01",
+        "architectures": [
+          "amd64",
           "i386"
         ]
       },
