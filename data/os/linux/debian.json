@@ -33,7 +33,7 @@
     "references": [
       "https://wiki.debian.org/DebianBullseye"
     ],
-    "semver": "1.x1",
+    "semver": "11.x",
     "lifecycle": {
       "active_development": {
         "date": "2021-08-14",
@@ -67,7 +67,7 @@
     "references": [
       "https://wiki.debian.org/DebianBuster"
     ],
-    "semver": "1.x0",
+    "semver": "10.x",
     "lifecycle": {
       "active_development": {
         "date": "2019-07-06",
