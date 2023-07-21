@@ -12,9 +12,21 @@ homepage?:    string
 #references: [#references_keys]: string
 references: #references
 
-#command_keys: "codename" | "version"
-#commands: [#command_keys]: [...string]
-commands?: #commands
+#command: [...string]
+commands: {
+	// Return codename, if set.
+	codename?: #command
+	// Check if the current data file is relevant--mostly useful for OS data
+	// files. (For example, there's no point checking an Alpine install against
+	// a Ubuntu data file.)
+	//
+	// If `relevance_filter` is declared for a given data file, the data file's
+	// version data will only be used if `relevance_filter`'s command exits with
+	// the status code `0`.
+	relevance_filter?: #command
+	// Return semver-compatible version number.
+	version: #command
+}
 
 #lifecycle_aliases: [#stages]: string
 lifecycle_aliases?: #lifecycle_aliases
