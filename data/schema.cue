@@ -34,7 +34,7 @@ lifecycle_aliases?: #lifecycle_aliases
 #date: time.Format("2006") | time.Format("2006-01") | time.Format("2006-01-02")
 
 #version_number: string
-#release: #version_number
+#release:        #version_number
 
 // @see https://github.com/cue-lang/cue/issues/407
 #semver: string
