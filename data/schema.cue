@@ -43,7 +43,7 @@ lifecycle_aliases?: #lifecycle_aliases
 // {
 //   // ...
 //   "versions": [{
-//     "semver": "^1.0",
+//     "semver": "1.0.x",
 //     "codename": "Geranium",
 //     "references": [
 //       "https://example.org"
