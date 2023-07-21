@@ -8,7 +8,7 @@ name:         string
 description?: string
 homepage?:    string
 
-#references_keys: "lifecycle" | #stages
+#references_keys: "lifecycle" | "release_history" | #stages
 #references: [#references_keys]: string
 references: #references
 
