@@ -20,6 +20,7 @@ commands?: #commands
 lifecycle_aliases?: #lifecycle_aliases
 
 #version_number: string
+#release: #version_number
 
 // @see https://github.com/cue-lang/cue/issues/407
 #semver: string
@@ -47,7 +48,7 @@ lifecycle_aliases?: #lifecycle_aliases
 	semver:    #semver
 	codename?: string
 	references?: [...string]
-	lifecycle: [#stages]: {
+	lifecycle?: [#stages]: {
 		// @note For `active_development`, `date` is the date the version was
 		//   given `semver` series was first released. For all other lifecycle
 		//   stages `date` is the date the given `semver` series transitioned to
@@ -73,8 +74,8 @@ lifecycle_aliases?: #lifecycle_aliases
 	//   "2.6.5",
 	//   "2.6.6",
 	//   "2.6.7",
-	//   "2.6.8",
+	//   "2.6.8"
 	// ]
-	releases?: [...#version_number]
+	releases?: [...#release]
 }
 versions: [...#versions]
