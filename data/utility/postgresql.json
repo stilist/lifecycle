@@ -22,7 +22,7 @@
   },
   "versions": [
     {
-      "semver": "^15",
+      "semver": "15.x",
       "lifecycle": {
         "active_development": {
           "date": "2022-10-13"
@@ -33,7 +33,7 @@
       }
     },
     {
-      "semver": "^14",
+      "semver": "14.x",
       "lifecycle": {
         "active_development": {
           "date": "2021-09-30"
@@ -44,7 +44,7 @@
       }
     },
     {
-      "semver": "^13",
+      "semver": "13.x",
       "lifecycle": {
         "active_development": {
           "date": "2020-09-24"
@@ -55,7 +55,7 @@
       }
     },
     {
-      "semver": "^12",
+      "semver": "12.x",
       "lifecycle": {
         "active_development": {
           "date": "2019-10-03"
@@ -66,7 +66,7 @@
       }
     },
     {
-      "semver": "^11",
+      "semver": "11.x",
       "lifecycle": {
         "active_development": {
           "date": "2018-10-18"
@@ -77,7 +77,7 @@
       }
     },
     {
-      "semver": "^10",
+      "semver": "10.x",
       "lifecycle": {
         "active_development": {
           "date": "2017-10-05"
@@ -88,7 +88,7 @@
       }
     },
     {
-      "semver": "^9.6",
+      "semver": "9.6.x",
       "lifecycle": {
         "active_development": {
           "date": "2016-09-29"
@@ -99,7 +99,7 @@
       }
     },
     {
-      "semver": "^9.5",
+      "semver": "9.5.x",
       "lifecycle": {
         "active_development": {
           "date": "2016-01-07"
@@ -110,7 +110,7 @@
       }
     },
     {
-      "semver": "^9.4",
+      "semver": "9.4.x",
       "lifecycle": {
         "active_development": {
           "date": "2014-12-18"
@@ -121,7 +121,7 @@
       }
     },
     {
-      "semver": "^9.3",
+      "semver": "9.3.x",
       "lifecycle": {
         "active_development": {
           "date": "2013-09-09"
@@ -132,7 +132,7 @@
       }
     },
     {
-      "semver": "^9.2",
+      "semver": "9.2.x",
       "lifecycle": {
         "active_development": {
           "date": "2012-09-10"
@@ -143,7 +143,7 @@
       }
     },
     {
-      "semver": "^9.1",
+      "semver": "9.1.x",
       "lifecycle": {
         "active_development": {
           "date": "2011-09-12"
@@ -154,7 +154,7 @@
       }
     },
     {
-      "semver": "^9.0",
+      "semver": "9.0.x",
       "lifecycle": {
         "active_development": {
           "date": "2010-09-20"
@@ -165,7 +165,7 @@
       }
     },
     {
-      "semver": "^8.4",
+      "semver": "8.4.x",
       "lifecycle": {
         "active_development": {
           "date": "2009-07-01"
@@ -176,7 +176,7 @@
       }
     },
     {
-      "semver": "^8.3",
+      "semver": "8.3.x",
       "lifecycle": {
         "active_development": {
           "date": "2008-02-04"
@@ -187,7 +187,7 @@
       }
     },
     {
-      "semver": "^8.2",
+      "semver": "8.2.x",
       "lifecycle": {
         "active_development": {
           "date": "2006-12-05"
@@ -198,7 +198,7 @@
       }
     },
     {
-      "semver": "^8.1",
+      "semver": "8.1.x",
       "lifecycle": {
         "active_development": {
           "date": "2005-11-08"
@@ -209,7 +209,7 @@
       }
     },
     {
-      "semver": "^8.0",
+      "semver": "8.0.x",
       "lifecycle": {
         "active_development": {
           "date": "2005-01-19"
@@ -220,7 +220,7 @@
       }
     },
     {
-      "semver": "^7.4",
+      "semver": "7.4.x",
       "lifecycle": {
         "active_development": {
           "date": "2003-11-17"
@@ -231,7 +231,7 @@
       }
     },
     {
-      "semver": "^7.3",
+      "semver": "7.3.x",
       "lifecycle": {
         "active_development": {
           "date": "2002-11-27"
@@ -242,7 +242,7 @@
       }
     },
     {
-      "semver": "^7.2",
+      "semver": "7.2.x",
       "lifecycle": {
         "active_development": {
           "date": "2002-02-04"
@@ -253,7 +253,7 @@
       }
     },
     {
-      "semver": "^7.1",
+      "semver": "7.1.x",
       "lifecycle": {
         "active_development": {
           "date": "2001-04-13"
@@ -264,7 +264,7 @@
       }
     },
     {
-      "semver": "^7.0",
+      "semver": "7.0.x",
       "lifecycle": {
         "active_development": {
           "date": "2000-05-08"
@@ -275,7 +275,7 @@
       }
     },
     {
-      "semver": "^6.5",
+      "semver": "6.5.x",
       "lifecycle": {
         "active_development": {
           "date": "1999-06-09"
@@ -286,7 +286,7 @@
       }
     },
     {
-      "semver": "^6.4",
+      "semver": "6.4.x",
       "lifecycle": {
         "active_development": {
           "date": "1998-10-30"
@@ -297,7 +297,7 @@
       }
     },
     {
-      "semver": "^6.3",
+      "semver": "6.3.x",
       "lifecycle": {
         "active_development": {
           "date": "1998-03-01"
